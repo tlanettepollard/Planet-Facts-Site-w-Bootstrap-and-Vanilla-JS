@@ -3,7 +3,8 @@
 // Headings
 
 h1,
-h2 {
+h2,
+.header-title {
 	font-family: $heading-font-family;
 	font-weight: $weight-medium;
 	color: $color-white;
@@ -40,6 +41,16 @@ h4 {
 	letter-spacing: +1;
 	text-transform: uppercase;
 	color: $color-lt-gray;
+}
+
+.header-title {
+	font-size: 1.75rem;
+	line-height: 36px;
+	letter-spacing: -1.05px;
+}
+
+.header-title:hover {
+    color: $color-lt-gray;
 }
 
 // Text

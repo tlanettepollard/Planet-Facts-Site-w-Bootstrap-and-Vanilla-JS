@@ -5,7 +5,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid black;
 }
 
 html {
@@ -18,13 +17,33 @@ body {
   padding: 0;
 }
 
+body {
+  background-color: #070724;
+  background-image: url("/assets/background-stars.svg");
+  background-repeat: repeat;
+  background-size: 60%;
+  background-position: center;
+  width: 100vw;
+  min-height: 100%;
+  color: #ffffff;
+}
+
 ol,
 ul {
   list-style-type: none;
 }
 
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin: auto;
+  position: relative;
+}
+
 h1,
-h2 {
+h2,
+.header-title {
   font-family: "Antonio", sans-serif;
   font-weight: 500;
   color: #ffffff;
@@ -63,12 +82,31 @@ h4 {
   color: #838391;
 }
 
+.header-title {
+  font-size: 1.75rem;
+  line-height: 36px;
+  letter-spacing: -1.05px;
+}
+
+.header-title:hover {
+  color: #838391;
+}
+
 .body-text {
   font-family: "Spartan", sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 2.5rem;
   color: #ffffff;
+}
+
+.bg-dark {
+  background-color: transparent !important;
+}
+
+.text-bg-dark {
+  background-color: #070724 !important;
+  background-image: url("/assets/background-stars.svg");
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
