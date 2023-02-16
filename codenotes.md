@@ -129,3 +129,6 @@ I can't believe it's been a year since I last checked in. My goal is to complete
 
 ### 02/14/2023
 Happy Valentine's Day! I just realized that I should have used Bootstrap. the functionality works, but I need to do better with the design. I'm going to make an new repository to start that again. 
+
+### 02/15/2023
+Happy Wednesday! I have started to set up the file using Bootstrap. So far it is going well. 
