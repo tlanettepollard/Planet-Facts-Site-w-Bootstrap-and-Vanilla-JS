@@ -1,0 +1,24 @@
+@import './variables';
+
+// Media Queries
+
+// Tablet Up 768px up
+@mixin bp-tablet-up {
+	@media only screen and (min-width: $bp-md) {
+		@content;
+	}
+}
+
+// Large Screens 1200px up
+@mixin bp-lg-up {
+	@media only screen and (min-width: $bp-lg) {
+		@content;
+	}
+}
+
+// XL Screens 1440px up
+@mixin bp-xl-up {
+	@media only screen and (min-width: $bp-xl) {
+		@content;
+	}
+}
