@@ -108,6 +108,8 @@ h4 {
 	text-transform: uppercase;
 	@include bp-tablet-up {
 		font-size: 0.5625rem;
+		line-height: 1.5625rem;
+		letter-spacing: .058rem;
 	}
 	@include bp-xl-up {
 		font-size: 0.75rem;
