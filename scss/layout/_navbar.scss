@@ -16,8 +16,14 @@ header {
 		.offcanvas-body {
 			
 			.navbar-nav {
+				height: 37.5rem;
 				@include bp-tablet-up {
 					width: 41.5625rem;
+					height: 9.9375rem;
+				}
+
+				@include bp-xl-up {
+					height: 5.5rem;
 				}
 				li {
 					

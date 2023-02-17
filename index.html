@@ -23,10 +23,8 @@
 				<nav
 					class="navbar navbar-dark navbar-expand-md bg-dark fixed-top border-bottom border-light"
 				>
-					<div
-						class="container-fluid d-md-flex flex-md-column flex-lg-row justify-content-lg-between"
-					>
-						<a href="./index.html" class="navbar-brand header-title p-2 py-md-4"
+					<div class="container-fluid">
+						<a href="./index.html" class="navbar-brand header-title p-2"
 							>The Planets
 						</a>
 						<button
@@ -64,7 +62,7 @@
 								class="offcanvas-body d-lg-flex flex-lg-row justify-content-lg-end align-items-lg-center"
 							>
 								<ul
-									class="navbar-nav d-md-flex flex-md-row justify-content-start justify-content-md-evenly p-2"
+									class="navbar-nav d-flex flex-column flex-md-row justify-content-evenly p-2"
 								>
 									<li
 										class="nav-item nav_item--mercury d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 border-bottom border-light"
@@ -259,7 +257,7 @@
 			<!-- End Header Section -->
 
 			<!-- Main Section -->
-			<main class="main container-fluid">
+			<main class="main container-fluid mt-5">
 				<section class="description container">
 					<div
 						class="desc-buttons--mobile mercury d-flex flex-row justify-content-evenly align-items-center"
@@ -333,45 +331,58 @@
 					</div>
 				</section>
 				<!-- description -->
-
-				<!-- Begin Footer -->
-				<footer>
-					<section class="bottom-section_container planet-facts">
-						<div class="row">
-							<div id="bottom-section_first-fact" class="rotation-facts">
-								<p class="facts-title h4-title">Rotation Time</p>
-								<p class="rotation-time facts-info"></p>
-							</div>
-							<div id="bottom-section_second-fact" class="rotation facts">
-								<p class="facts-title h4-title">Revolution Time</p>
-								<p class="revolution time facts-info"></p>
-							</div>
-							<div id="bottom-section_third-fact" class="radius facts">
-								<p class="facts-title h4-title">Radius</p>
-								<p class="rotation-time facts-info"></p>
-							</div>
-							<div id="bottom-section_fourth-fact" class="temperature facts">
-								<p class="facts-title h4-title">Average Temp.</p>
-								<p class="rotation-time facts-info"></p>
-							</div>
-						</div>
-						<!-- End Planet Facts -->
-
-						<div class="attribution">
-							<p>
-								Challenge by
-								<a
-									href="https://www.frontendmentor.io? ref=challenge"
-									target="_blank"
-									>Frontend Mentor</a
-								>.Coded by
-								<a href="https://github.com/tlanettepollard">T.Lanette</a>
-							</p>
-						</div>
-					</section>
-				</footer>
 			</main>
 			<!-- End Main Section -->
+
+			<!-- Begin Footer -->
+			<footer class="footer container-fluid">
+				<section class="bottom-section_container container planet-facts">
+					<div class="facts_container row">
+						<div
+							id="bottom-section_first-fact"
+							class="rotation-facts col-12 col-md-3"
+						>
+							<p class="facts-title h4-title">Rotation Time</p>
+							<p class="rotation-time facts-info"></p>
+						</div>
+						<div
+							id="bottom-section_second-fact"
+							class="revolution facts col-12 col-md-3"
+						>
+							<p class="facts-title h4-title">Revolution Time</p>
+							<p class="revolution-time facts-info"></p>
+						</div>
+						<div
+							id="bottom-section_third-fact"
+							class="radius facts col-12 col-md-3"
+						>
+							<p class="facts-title h4-title">Radius</p>
+							<p class="rotation-time facts-info"></p>
+						</div>
+						<div
+							id="bottom-section_fourth-fact"
+							class="temperature facts col-12 col-md-3"
+						>
+							<p class="facts-title h4-title">Average Temp.</p>
+							<p class="average-temperature facts-info"></p>
+						</div>
+					</div>
+
+					<!-- End Planet Facts -->
+
+					<div class="attribution container">
+						<p>
+							Challenge by
+							<a
+								href="https://www.frontendmentor.io? ref=challenge"
+								target="_blank"
+								>Frontend Mentor</a
+							>.Coded by
+							<a href="https://github.com/tlanettepollard">T.Lanette</a>
+						</p>
+					</div>
+				</section>
+			</footer>
 		</div>
 		<!-- Wrapper -->
 
