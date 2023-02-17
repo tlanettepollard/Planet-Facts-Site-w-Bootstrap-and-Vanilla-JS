@@ -58,7 +58,7 @@ h4 {
 }
 
 .h1-title {
-  font-size: 8rem;
+  font-size: 5rem;
   line-height: 10.3rem;
 }
 
@@ -91,6 +91,12 @@ h4 {
 
 .header-title:hover {
   color: #838391;
+}
+
+.mobile-title {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 10px;
 }
 
 .body-text {
