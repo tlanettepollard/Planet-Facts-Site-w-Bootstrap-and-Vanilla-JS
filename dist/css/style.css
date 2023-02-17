@@ -158,6 +158,8 @@ h4 {
 @media only screen and (min-width: 768px) {
   .btn-text {
     font-size: 0.5625rem;
+    line-height: 1.5625rem;
+    letter-spacing: 0.058rem;
   }
 }
 @media only screen and (min-width: 1400px) {
