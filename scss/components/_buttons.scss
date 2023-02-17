@@ -1,0 +1,33 @@
+.desc-buttons--mobile {
+	height: 5rem;
+	width: 100%;
+
+	.border-bottom {
+		width: 100% !important;
+	}
+
+	.border-light {
+		color: $color-lt-gray !important;
+	}
+
+    .btn-mobile {
+        border: none;
+        outline: none;
+    }
+}
+
+.desc-buttons--tablet {
+    @include bp-tablet-up {
+        border: none;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .btn-tablet {
+        @include bp-tablet-up {
+            cursor: pointer;
+            
+        }
+    }
+}
