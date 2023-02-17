@@ -34,6 +34,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .wrapper {
   width: 100%;
   min-height: 100vh;
@@ -102,12 +106,30 @@ h4 {
 .body-text {
   font-family: "Spartan", sans-serif;
   font-weight: 400;
-  font-size: 0.6875rem;
+  font-size: 1.5625rem;
   line-height: 2.5rem;
   color: #ffffff;
 }
 @media only screen and (min-width: 768px) {
   .body-text {
+    font-size: 0.875rem;
+  }
+}
+
+.paragraph {
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 0.6875rem;
+  line-height: 1.375rem;
+}
+
+.source-text {
+  font-family: "Spartan", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.5625rem;
+}
+@media only screen and (min-width: 1400px) {
+  .source-text {
     font-size: 0.875rem;
   }
 }
@@ -119,6 +141,54 @@ h4 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.0625rem;
+}
+
+.btn-text {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 768px) {
+  .btn-text {
+    font-size: 0.5625rem;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .btn-text {
+    font-size: 0.75rem;
+  }
+}
+
+.facts-title {
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 0.5rem;
+  line-height: 1rem;
+  letter-spacing: 0.0455rem;
+  text-transform: uppercase;
+}
+
+.facts-data {
+  font-family: "Antonio", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  letter-spacing: -0.0469rem;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 768px) {
+  .facts-data {
+    font-size: 1.5rem;
+    line-height: 1.9375rem;
+    letter-spacing: -0.0563rem;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .facts-data {
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    letter-spacing: -0.0938rem;
+  }
 }
 
 .desc-planet {
@@ -248,9 +318,8 @@ h4 {
 
 .footer {
   width: 100%;
-  height: 16.875rem;
+  height: auto;
 }
-
 .main {
   width: 100%;
   height: auto;

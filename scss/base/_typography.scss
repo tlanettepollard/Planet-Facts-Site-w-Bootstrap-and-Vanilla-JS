@@ -55,7 +55,7 @@ h4 {
 
 .mobile-title {
 	font-weight: $weight-bold;
-	font-size: .75rem;
+	font-size: 0.75rem;
 	line-height: 10px;
 }
 
@@ -63,13 +63,29 @@ h4 {
 .body-text {
 	font-family: $body-font-family;
 	font-weight: $weight-regular;
-	font-size: .6875rem;
+	font-size: 1.5625rem;
 	line-height: 2.5rem;
 	color: $color-white;
 	@include bp-tablet-up {
+		font-size: 0.875rem;
+	}
+}
+
+.paragraph {
+	font-family: $body-font-family;
+	font-weight: $weight-regular;
+	font-size: 0.6875rem;
+	line-height: 1.375rem;
+}
+
+.source-text {
+	font-family: $body-font-family;
+	font-size: .75rem;
+	line-height: 1.5625rem;
+
+	@include bp-xl-up {
 		font-size: .875rem;
 	}
-	
 }
 
 .link-text {
@@ -79,4 +95,46 @@ h4 {
 	font-weight: $weight-bold;
 	text-transform: uppercase;
 	letter-spacing: 0.0625rem;
+}
+
+.btn-text {
+	color: $color-white;
+	font-weight: $weight-bold;
+	text-transform: uppercase;
+	@include bp-tablet-up {
+		font-size: 0.5625rem;
+	}
+	@include bp-xl-up {
+		font-size: 0.75rem;
+	}
+}
+
+.facts-title {
+	font-family: $body-font-family;
+	font-weight: $weight-bold;
+	font-size: 0.5rem;
+	line-height: 1rem;
+	letter-spacing: 0.0455rem;
+	text-transform: uppercase;
+}
+
+.facts-data {
+	font-family: $heading-font-family;
+	font-weight: $weight-regular;
+	font-size: 1.25rem;
+	line-height: 1.625rem;
+	letter-spacing: -0.0469rem;
+	text-transform: uppercase;
+
+	@include bp-tablet-up {
+		font-size: 1.5rem;
+		line-height: 1.9375rem;
+		letter-spacing: -0.0563rem;
+	}
+
+	@include bp-xl-up {
+		font-size: 2.5rem;
+		line-height: 3.25rem;
+		letter-spacing: -0.0938rem;
+	}
 }
