@@ -258,30 +258,39 @@
 
 			<!-- Main Section -->
 			<main class="main container-fluid mt-5">
-				<section class="description container">
-					<div
-						class="desc-buttons--mobile mercury d-flex flex-row justify-content-evenly align-items-center"
+				<section
+					class="desc-buttons--mobile mercury container-fluid d-flex flex-row justify-content-evenly align-items-center d-md-none border-bottom border-light p-2"
+				>
+					<button
+						type="button"
+						class="btn btn-mobile btn-overview--mobile text-center"
 					>
-						<button class="btn btn-mobile btn-overview--mobile">
-							<h4 class="mobile-title text-center d-md-none">Overview</h4>
-						</button>
-						<button class="btn btn-mobile btn-structure--mobile">
-							<h4 class="mobile-title text-center d-md-none">Structure</h4>
-						</button>
-						<button class="btn btn-mobile btn-surface--mobile">
-							<h4 class="mobile-title text-center d-md-none">Surface</h4>
-						</button>
-					</div>
+						<h4 class="mobile-title m-0">Overview</h4>
+					</button>
+					<button
+						type="button"
+						class="btn btn-mobile btn-structure--mobile text-center"
+					>
+						<h4 class="mobile-title m-0">Structure</h4>
+					</button>
+					<button
+						type="button"
+						class="btn btn-mobile btn-surface--mobile text-center"
+					>
+						<h4 class="mobile-title m-0">Surface</h4>
+					</button>
+				</section>
 
-					<div class="planet-image_container container">
-						<div class="planet-image--bottom">
+				<section class="desc-planet container-fluid row">
+					<div class="planet-image_container container col-12 col-lg-6 my-5">
+						<div class="planet-image--bottom container">
 							<img
 								src=""
 								alt="mercury planet image"
-								class="planet-image planet-image--mercury"
+								class="planet-image planet-image--mercury container"
 							/>
 						</div>
-						<div class="planet-image--top">
+						<div class="planet-image--top container">
 							<img
 								src=""
 								alt="mercury geology image"
@@ -291,46 +300,44 @@
 					</div>
 					<!-- planet-image--container -->
 
-					<div class="top_container">
-						<div class="description-planet">
-							<h1
-								id="main-title"
-								class="description-title planet-title h1-title"
-							>
-								Mercury
-							</h1>
-							<p
-								id="main-text"
-								class="description-text planet-text body-text"
-							></p>
-							<p class="body-text">
-								Source :
-								<a href="" class="source-link text-white" target="_blank"
-									>Wikipedia</a
-								>
-							</p>
-						</div>
+					<div class="top_container container col-12 col-lg-6">
+						<div class="row">
+							<div class="planet-info container col-md-6 col-lg-12">
+								<h1 id="main-title" class="planet-info--title h1-title">
+									Mercury
+								</h1>
+								<p id="main-text" class="planet-info--text body-text"></p>
+								<p class="body-text">
+									Source :
+									<a href="" class="source-link text-white" target="_blank"
+										>Wikipedia</a
+									>
+								</p>
+							</div>
 
-						<div class="desc-buttons--tablet mercury">
-							<button class="btn btn-tablet btn-overview">
-								<h3 class="h3-title">
-									<span class="span-number">01</span>Overview
-								</h3>
-							</button>
-							<button class="btn btn-tablet btn-overview">
-								<h3 class="h3-title">
-									<span class="span-number">02</span>Structure
-								</h3>
-							</button>
-							<button class="btn btn-tablet btn-overview">
-								<h3 class="h3-title">
-									<span class="span-number">03</span>Surface Geology
-								</h3>
-							</button>
+							<div
+								class="desc-buttons--tablet mercury d-none d-md-block d-md-flex flex-md-column justify-content-center col-md-6 col-lg-12"
+							>
+								<button class="btn btn-tablet btn-overview">
+									<h3 class="h3-title">
+										<span class="span-number">01</span>Overview
+									</h3>
+								</button>
+								<button class="btn btn-tablet btn-overview">
+									<h3 class="h3-title">
+										<span class="span-number">02</span>Structure
+									</h3>
+								</button>
+								<button class="btn btn-tablet btn-overview">
+									<h3 class="h3-title">
+										<span class="span-number">03</span>Surface Geology
+									</h3>
+								</button>
+							</div>
 						</div>
 					</div>
 				</section>
-				<!-- description -->
+				<!-- desc-planet -->
 			</main>
 			<!-- End Main Section -->
 
