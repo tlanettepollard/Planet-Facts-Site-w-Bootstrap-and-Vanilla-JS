@@ -1,8 +1,9 @@
 header {
 	width: 100%;
 	height: 4.125rem;
+
 	@include bp-tablet-up {
-		height: 9.9375rem;
+		height: 13.75rem;
 	}
 
 	@include bp-xl-up {
