@@ -4,7 +4,15 @@
     .bottom-section_container {
         .facts_container {
             .facts {
-              
+              @include bp-tablet-up {
+                width: 10.25rem;
+                height: 5.5rem;
+                
+                @include bp-xl-up {
+                   width: 15.9375rem;
+                   height: 8rem; 
+                }
+              }
                 
             
             }
