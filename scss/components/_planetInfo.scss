@@ -1,16 +1,17 @@
 .desc-planet {
-    height: auto;
+	height: auto;
 	.top_container {
 		.planet-info {
 			&--title {
 				font-size: 2.5rem;
-                @include bp-tablet-up {
-                   font-size: 3rem; 
-                }
 
-                @include bp-xl-up {
-                    font-size: 5rem;
-                }
+				@include bp-tablet-up {
+					font-size: 3rem;
+				}
+
+				@include bp-xl-up {
+					font-size: 5rem;
+				}
 			}
 		}
 	}
