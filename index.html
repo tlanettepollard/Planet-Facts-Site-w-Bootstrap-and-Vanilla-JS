@@ -23,8 +23,10 @@
 				<nav
 					class="navbar navbar-dark navbar-expand-md bg-dark fixed-top border-bottom border-light"
 				>
-					<div class="container-fluid">
-						<a href="./index.html" class="navbar-brand header-title p-2"
+					<div
+						class="container-fluid d-md-flex flex-md-column flex-lg-row justify-content-lg-between"
+					>
+						<a href="./index.html" class="navbar-brand header-title p-2 py-md-4"
 							>The Planets
 						</a>
 						<button
@@ -46,20 +48,26 @@
 								class="offcanvas-header border-bottom border-light"
 								id="offcanvasDarkNavbarLabel"
 							>
-								<h5 class="offcanvas-title text-white header-title p-2">
+								<h5
+									class="offcanvas-title text-white header-title p-2 d-md-none"
+								>
 									The Planets
 								</h5>
 								<button
-									class="btn-close btn-close-white"
+									class="btn-close btn-close-white d-md-none"
 									type="button"
 									data-bs-dismiss="offcanvas"
 									aria-label="Close"
 								></button>
 							</div>
-							<div class="offcanvas-body">
-								<ul class="navbar-nav justify-content-start p-2">
+							<div
+								class="offcanvas-body d-lg-flex flex-lg-row justify-content-lg-end align-items-lg-center"
+							>
+								<ul
+									class="navbar-nav d-md-flex flex-md-row justify-content-start justify-content-md-evenly p-2"
+								>
 									<li
-										class="nav-item nav_item--mercury d-flex flex-row justify-content-between align-items-center mb-1 p-1 border-bottom border-light"
+										class="nav-item nav_item--mercury d-flex flex-row justify-content-between align-items-center p-1 border-bottom border-light"
 									>
 										<div>
 											<img
@@ -68,7 +76,7 @@
 												alt="planet icon"
 											/>
 											<a
-												class="nav__link nav__link--mercury active h3-title ps-1"
+												class="nav__link nav__link--mercury link-text active h3-title ps-1 px-md-1 text-white text-uppercase"
 												href="index.html"
 												>Mercury</a
 											>
@@ -91,7 +99,7 @@
 												alt="planet icon"
 											/>
 											<a
-												class="nav__link nav__link--venus h3-title ps-1"
+												class="nav__link nav__link--venus link-text h3-title ps-1 px-md-1 text-white text-uppercase"
 												href="./pages/venus.html"
 												>Venus</a
 											>
@@ -114,7 +122,7 @@
 												alt="planet icon"
 											/>
 											<a
-												class="nav__link nav__link--earth h3-title ps-1"
+												class="nav__link nav__link--earth link-text h3-title ps-1 px-md-1 text-white text-uppercase"
 												href="./pages/earth.html"
 												>Earth</a
 											>
@@ -137,7 +145,7 @@
 												alt="planet icon"
 											/>
 											<a
-												class="nav__link nav__link--mars h3-title ps-1"
+												class="nav__link nav__link--mars link-text h3-title ps-1 px-md-1 text-white text-uppercase"
 												href="./pages/mars.html"
 												>Mars</a
 											>
@@ -160,7 +168,7 @@
 												alt="planet icon"
 											/>
 											<a
-												class="nav__link nav__link--jupiter h3-title ps-1"
+												class="nav__link nav__link--jupiter link-text h3-title ps-1 px-md-1 text-white text-uppercase"
 												href="./pages/jupiter.html"
 												>Jupiter</a
 											>
@@ -183,7 +191,7 @@
 												alt="planet icon"
 											/>
 											<a
-												class="nav__link nav__link--saturn h3-title ps-1"
+												class="nav__link nav__link--saturn link-text h3-title ps-1 px-md-1 text-white text-uppercase"
 												href="./pages/saturn.html"
 												>Saturn</a
 											>
@@ -206,7 +214,7 @@
 												alt="planet icon"
 											/>
 											<a
-												class="nav__link nav__link--uranus h3-title ps-1"
+												class="nav__link nav__link--uranus link-text h3-title ps-1 px-md-1 text-white text-uppercase"
 												href="./pages/uranus.html"
 												>Uranus</a
 											>
@@ -229,7 +237,7 @@
 												alt="planet icon"
 											/>
 											<a
-												class="nav__link nav__link--neptune h3-title ps-1"
+												class="nav__link nav__link--neptune link-text h3-title ps-1 px-md-1 text-white text-uppercase"
 												href="./pages/neptune.html"
 												>Neptune</a
 											>
