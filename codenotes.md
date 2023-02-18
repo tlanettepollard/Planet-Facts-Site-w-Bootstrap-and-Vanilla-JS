@@ -130,6 +130,7 @@ I can't believe it's been a year since I last checked in. My goal is to complete
 
 ### 02/14/2023
 
+
 Happy Valentine's Day! I just realized that I should have used Bootstrap. the functionality works, but I need to do better with the design. I'm going to make an new repository to start that again.
 
 ### 02/18/2023
@@ -141,3 +142,4 @@ Resources:
 - [Single Page Application Routing Using Hash or URL](https://dev.to/thedevdrawer/single-page-application-routing-using-hash-or-url-9jh)
 - [JavaScript Void Keyword Explained](https://www.freecodecamp.org/news/javascript-void-keyword-explained/)
 - [nithinmanoj10/Planets-Fact-Site](https://github.com/nithinmanoj10/Planets-Fact-Site): used for guidance in accessing page information for different planets on one page.
+
