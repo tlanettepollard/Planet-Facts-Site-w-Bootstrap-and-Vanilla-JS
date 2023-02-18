@@ -125,7 +125,18 @@ I made some progress today. I used CSS to set the buttons to the planet color on
 It's been a while but I am back.
 
 ### 02/11/2023
-I can't believe it's been a year since I last checked in. My goal is to complete this project and another one that I am behind on. I'm further along in this project than I thought I was. 
+
+I can't believe it's been a year since I last checked in. My goal is to complete this project and another one that I am behind on. I'm further along in this project than I thought I was.
 
 ### 02/14/2023
-Happy Valentine's Day! I just realized that I should have used Bootstrap. the functionality works, but I need to do better with the design. I'm going to make an new repository to start that again. 
+
+Happy Valentine's Day! I just realized that I should have used Bootstrap. the functionality works, but I need to do better with the design. I'm going to make an new repository to start that again.
+
+### 02/18/2023
+
+Happy Weekend! I decided to research how to use JS to navigate between the pages without having multiple pages. Basically, I wanted to see if I could make a single page app just using HTML, JS, CSS.
+
+Resources:
+
+- [Single Page Application Routing Using Hash or URL](https://dev.to/thedevdrawer/single-page-application-routing-using-hash-or-url-9jh)
+- [JavaScript Void Keyword Explained](https://www.freecodecamp.org/news/javascript-void-keyword-explained/)
