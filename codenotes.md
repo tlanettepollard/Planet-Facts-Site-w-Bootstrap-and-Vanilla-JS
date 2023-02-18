@@ -134,9 +134,10 @@ Happy Valentine's Day! I just realized that I should have used Bootstrap. the fu
 
 ### 02/18/2023
 
-Happy Weekend! I decided to research how to use JS to navigate between the pages without having multiple pages. Basically, I wanted to see if I could make a single page app just using HTML, JS, CSS.
+Happy Weekend! I decided to research how to use JS to navigate between the pages without having multiple pages. Basically, I wanted to see if I could make a single page app just using HTML, JS, CSS. So far it has worked! 
 
 Resources:
 
 - [Single Page Application Routing Using Hash or URL](https://dev.to/thedevdrawer/single-page-application-routing-using-hash-or-url-9jh)
 - [JavaScript Void Keyword Explained](https://www.freecodecamp.org/news/javascript-void-keyword-explained/)
+- [nithinmanoj10/Planets-Fact-Site](https://github.com/nithinmanoj10/Planets-Fact-Site): used for guidance in accessing page information for different planets on one page.
