@@ -74,11 +74,11 @@
 											/>
 											<a
 												class="nav__link nav__link--mercury link-text active h3-title ps-1 px-md-1 text-white text-uppercase"
-												href="index.html"
+												href="javascript:void(0)"
 												>Mercury</a
 											>
 										</div>
-										<a href="index.html" class="icon-link">
+										<a href="javascript:void(0)" class="icon-link">
 											<img
 												src="assets/icon-chevron.svg"
 												class="menu-chevron d-md-none"
@@ -97,11 +97,11 @@
 											/>
 											<a
 												class="nav__link nav__link--venus link-text h3-title ps-1 px-md-1 text-white text-uppercase"
-												href="./pages/venus.html"
+												href="javascript:void(0)"
 												>Venus</a
 											>
 										</div>
-										<a href="./pages/venus.html" class="icon-link">
+										<a href="" class="icon-link">
 											<img
 												src="assets/icon-chevron.svg"
 												class="menu-chevron d-md-none"
@@ -120,11 +120,11 @@
 											/>
 											<a
 												class="nav__link nav__link--earth link-text h3-title ps-1 px-md-1 text-white text-uppercase"
-												href="./pages/earth.html"
+												href="javascript:void(0)"
 												>Earth</a
 											>
 										</div>
-										<a href="./pages/earth.html" class="icon-link">
+										<a href="" class="icon-link">
 											<img
 												src="assets/icon-chevron.svg"
 												class="menu-chevron d-md-none"
@@ -143,11 +143,11 @@
 											/>
 											<a
 												class="nav__link nav__link--mars link-text h3-title ps-1 px-md-1 text-white text-uppercase"
-												href="./pages/mars.html"
+												href="javascript:void(0)"
 												>Mars</a
 											>
 										</div>
-										<a href="./pages/mars.html" class="icon-link">
+										<a href="" class="icon-link">
 											<img
 												src="assets/icon-chevron.svg"
 												class="menu-chevron d-md-none"
@@ -166,11 +166,11 @@
 											/>
 											<a
 												class="nav__link nav__link--jupiter link-text h3-title ps-1 px-md-1 text-white text-uppercase"
-												href="./pages/jupiter.html"
+												href="javascript:void(0)"
 												>Jupiter</a
 											>
 										</div>
-										<a href="./pages/jupiter.html" class="icon-link">
+										<a href="" class="icon-link">
 											<img
 												src="assets/icon-chevron.svg"
 												class="menu-chevron d-md-none"
@@ -189,11 +189,11 @@
 											/>
 											<a
 												class="nav__link nav__link--saturn link-text h3-title ps-1 px-md-1 text-white text-uppercase"
-												href="./pages/saturn.html"
+												href="javascript:void(0)"
 												>Saturn</a
 											>
 										</div>
-										<a href="./pages/saturn.html" class="icon-link">
+										<a href="" class="icon-link">
 											<img
 												src="assets/icon-chevron.svg"
 												class="menu-chevron d-md-none"
@@ -212,11 +212,11 @@
 											/>
 											<a
 												class="nav__link nav__link--uranus link-text h3-title ps-1 px-md-1 text-white text-uppercase"
-												href="./pages/uranus.html"
+												href="javascript:void(0)"
 												>Uranus</a
 											>
 										</div>
-										<a href="./pages/uranus.html" class="icon-link">
+										<a href="" class="icon-link">
 											<img
 												src="assets/icon-chevron.svg"
 												class="menu-chevron d-md-none"
@@ -235,11 +235,11 @@
 											/>
 											<a
 												class="nav__link nav__link--neptune link-text h3-title ps-1 px-md-1 text-white text-uppercase"
-												href="./pages/neptune.html"
+												href="javascript:void(0)"
 												>Neptune</a
 											>
 										</div>
-										<a href="./pages/neptune.html" class="icon-link">
+										<a href="" class="icon-link">
 											<img
 												src="assets/icon-chevron.svg"
 												class="menu-chevron d-md-none"
@@ -258,26 +258,26 @@
 			<!-- Main Section -->
 			<main class="main container-fluid my-5">
 				<section
-					class="desc-buttons--mobile mercury container-fluid d-flex flex-row justify-content-evenly align-items-center d-md-none border-bottom border-light p-2"
+					class="description desc-buttons--mobile mercury container-fluid d-flex flex-row justify-content-evenly align-items-center d-md-none border-bottom border-light p-2"
 				>
-					<button
-						type="button"
-						class="btn btn-mobile btn-overview--mobile text-center"
+					<a
+						href=""
+						class="btn btn-mobile btn-overview--mobile desc-button--link text-center border-bottom border-4"
 					>
 						<h4 class="mobile-title m-0">Overview</h4>
-					</button>
-					<button
-						type="button"
-						class="btn btn-mobile btn-structure--mobile text-center"
+					</a>
+					<a
+						href=""
+						class="btn btn-mobile btn-structure--mobile desc-button--link text-center border-bottom border-4"
 					>
 						<h4 class="mobile-title m-0">Structure</h4>
-					</button>
-					<button
-						type="button"
-						class="btn btn-mobile btn-surface--mobile text-center"
+					</a>
+					<a
+						href=""
+						class="btn btn-mobile btn-surface--mobile desc-button--link text-center border-bottom border-4"
 					>
 						<h4 class="mobile-title m-0">Surface</h4>
-					</button>
+					</a>
 				</section>
 
 				<section class="desc-planet container-fluid row gap-lg-2">
@@ -286,6 +286,7 @@
 							<img
 								src="/assets/planet-mercury.svg"
 								alt="mercury planet image"
+								id="main-image"
 								class="planet-image planet-image--mercury mx-auto d-block p-5 img-fluid"
 							/>
 						</div>
@@ -320,15 +321,20 @@
 									<a href="" class="source-link text-white" target="_blank"
 										>Wikipedia</a
 									>
+									<img
+										src="./assets/icon-source.svg"
+										alt="source icon"
+										class="planet-info--icon"
+									/>
 								</p>
 							</div>
 
 							<div
-								class="desc-buttons--tablet d-none d-md-block d-md-flex flex-md-column justify-content-center col-md-5 offset-md-1 col-lg-9 gap-md-3 offset-lg-2 pt-md-3 py-lg-5"
+								class="description desc-buttons--tablet d-none d-md-block d-md-flex flex-md-column justify-content-center col-md-5 offset-md-1 col-lg-9 gap-md-3 offset-lg-2 pt-md-3 py-lg-5"
 							>
 								<a
 									href=""
-									class="btn-tablet btn-overview text-md-start border border-1"
+									class="btn-tablet btn-overview desc-button--link text-md-start border border-1 active"
 								>
 									<p class="btn-text btn-info--title my-auto py-2">
 										<span class="span-number btn-text px-3">01</span>Overview
@@ -336,7 +342,7 @@
 								</a>
 								<a
 									href=""
-									class="btn-tablet btn-structure text-md-start border border-1"
+									class="btn-tablet btn-structure desc-button--link text-md-start border border-1"
 								>
 									<p class="btn-info--title btn-text my-auto py-2">
 										<span class="span-number px-3">02</span>Structure
@@ -344,7 +350,7 @@
 								</a>
 								<a
 									href=""
-									class="btn-tablet btn-surface text-md-start border border-1"
+									class="btn-tablet btn-surface desc-button--link text-md-start border border-1"
 								>
 									<p class="btn-text btn-info--title my-auto py-2">
 										<span class="span-number px-3">03</span>Surface Geology
@@ -363,32 +369,28 @@
 							class="facts_container container d-flex flex-column flex-md-row justify-content-between w-100"
 						>
 							<div
-								id="bottom-section_first-fact"
 								class="rotation facts d-flex flex-row flex-md-column justify-content-between align-items-center align-items-md-start justify-content-md-evenly border border-1 me-2"
 							>
 								<p class="facts-title h4-title">Rotation Time</p>
-								<p class="rotation-time facts-data">58.6 Days</p>
+								<p id="rotation-time" class="facts-data">58.6 Days</p>
 							</div>
 							<div
-								id="bottom-section_second-fact"
 								class="revolution facts d-flex flex-row flex-md-column justify-content-between align-items-center align-items-md-start border border-1 me-2"
 							>
 								<p class="facts-title h4-title">Revolution Time</p>
-								<p class="revolution-time facts-data">87.97 Days</p>
+								<p id="revolution-time" class="facts-data">87.97 Days</p>
 							</div>
 							<div
-								id="bottom-section_third-fact"
 								class="radius facts d-flex flex-row flex-md-column justify-content-between align-items-center align-items-md-start border border-1 me-2"
 							>
 								<p class="facts-title h4-title">Radius</p>
-								<p class="rotation-time facts-data">2,439.7 KM</p>
+								<p id="radius-size" class="facts-data">2,439.7 KM</p>
 							</div>
 							<div
-								id="bottom-section_fourth-fact"
 								class="temperature facts d-flex flex-row flex-md-column justify-content-between align-items-center align-items-md-start border border-1 me-2"
 							>
 								<p class="facts-title h4-title">Average Temp.</p>
-								<p class="average-temperature facts-data">430°c</p>
+								<p id="avg-temperature" class="facts-data">430°c</p>
 							</div>
 						</div>
 
@@ -418,5 +420,8 @@
 			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
 			crossorigin="anonymous"
 		></script>
+
+		<!-- My JS -->
+		<script src="/js/main.js"></script>
 	</body>
 </html>

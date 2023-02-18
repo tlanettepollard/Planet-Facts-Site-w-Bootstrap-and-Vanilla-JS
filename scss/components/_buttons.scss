@@ -1,4 +1,3 @@
-
 .desc-buttons--mobile {
 	height: 5rem;
 	width: 100%;
@@ -23,14 +22,12 @@
 		width: 17.5625rem;
 		height: 100%;
 	}
-
-
-	
 }
 
 // Mobile Buttons on page load
+/*
 .mercury > .btn-overview--mobile {
-	border-bottom: 4px solid $mercury;
+	border-bottom: 4px solid $mercury !important;
 }
 .venus > .btn-overview--mobile {
 	border-bottom: 4px solid $venus;
@@ -53,7 +50,7 @@
 .earth > .btn-overview--mobile {
 	border-bottom: 4px solid $earth;
 }
-
+*/
 // Tablet Buttons--on page load
 .mercury > .btn-overview {
 	background-color: $mercury;
