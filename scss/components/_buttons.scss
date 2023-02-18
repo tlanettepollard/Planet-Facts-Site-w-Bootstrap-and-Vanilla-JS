@@ -11,9 +11,10 @@
 	}
 
 	.btn-mobile {
-		border: none;
 		outline: none;
 	}
+
+
 }
 
 .desc-buttons--tablet {
@@ -25,7 +26,7 @@
 }
 
 // Mobile Buttons on page load
-/*
+
 .mercury > .btn-overview--mobile {
 	border-bottom: 4px solid $mercury !important;
 }
@@ -50,7 +51,7 @@
 .earth > .btn-overview--mobile {
 	border-bottom: 4px solid $earth;
 }
-*/
+
 // Tablet Buttons--on page load
 .mercury > .btn-overview {
 	background-color: $mercury;

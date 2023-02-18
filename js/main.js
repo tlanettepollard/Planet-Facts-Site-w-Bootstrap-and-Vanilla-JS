@@ -45,6 +45,7 @@ const updatePlanetView = (planet) => {
 	const planetRevolution = document.getElementById('revolution-time');
 	const planetRadius = document.getElementById('radius-size');
 	const planetTemperature = document.getElementById('avg-temperature');
+	const mobileBtnBorder = document.querySelectorAll('.border-bottom');
 
 	const { rotation, revolution, radius, temperature } = planet;
 	console.log(planet);
@@ -71,7 +72,7 @@ const updatePlanetView = (planet) => {
 
 	// Mobile Buttons
 	// Overview
-	
+
 	overviewBtnMobile.addEventListener('click', () => {
 		planetDesc.innerHTML = planet.overview.content;
 		source.href = planet.overview.source;
@@ -82,7 +83,8 @@ const updatePlanetView = (planet) => {
 		surfaceBtnMobile.style.backgroundColor = 'transparent';
 
 		if (window.innerWidth < 768) {
-			overviewBtnMobile.style.borderBottom = `4px solid #${planet.color}`;
+			mobileBtnBorder.style.color = planet.color;
+			//overviewBtnMobile.style.borderBottom = `4px solid #${planet.color}`;
 			overviewBtnMobile.style.background = 'transparent';
 			structureBtnMobile.style.borderBottom = 'transparent';
 			surfaceBtnMobile.style.borderBottom = 'transparent';
