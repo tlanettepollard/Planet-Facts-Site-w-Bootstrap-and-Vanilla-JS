@@ -2,19 +2,7 @@
 	height: 5rem;
 	width: 100%;
 
-	.border-bottom {
-		width: 100% !important;
-	}
-
-	.border-light {
-		color: $color-lt-gray !important;
-	}
-
-	.btn-mobile {
-		outline: none;
-	}
-
-
+	
 }
 
 .desc-buttons--tablet {
@@ -26,10 +14,11 @@
 }
 
 // Mobile Buttons on page load
-
-.mercury > .btn-overview--mobile {
-	border-bottom: 4px solid $mercury !important;
+/*
+ .mercury > .btn-overview--mobile { 
+	border-bottom: 4px solid $mercury;
 }
+
 .venus > .btn-overview--mobile {
 	border-bottom: 4px solid $venus;
 }
@@ -50,7 +39,7 @@
 }
 .earth > .btn-overview--mobile {
 	border-bottom: 4px solid $earth;
-}
+}*/
 
 // Tablet Buttons--on page load
 .mercury > .btn-overview {
