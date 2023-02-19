@@ -84,7 +84,7 @@ const updatePlanetView = (planet) => {
 
 		if (window.innerWidth < 768) {
 			mobileBtnBorder.style.color = planet.color;
-			//overviewBtnMobile.style.borderBottom = `4px solid #${planet.color}`;
+			overviewBtnMobile.style.borderBottom = `4px solid #${planet.color}`;
 			overviewBtnMobile.style.background = 'transparent';
 			structureBtnMobile.style.borderBottom = 'transparent';
 			surfaceBtnMobile.style.borderBottom = 'transparent';
