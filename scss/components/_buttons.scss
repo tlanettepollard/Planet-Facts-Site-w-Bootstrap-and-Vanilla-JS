@@ -1,10 +1,7 @@
 .desc-buttons--mobile {
 	height: 5rem;
 	width: 100%;
-
-
 }
-
 
 .desc-buttons--tablet {
 	@include bp-tablet-up {
