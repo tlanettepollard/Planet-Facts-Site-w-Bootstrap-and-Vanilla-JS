@@ -2,8 +2,12 @@
 	height: 5rem;
 	width: 100%;
 
-	
+	.btn-mobile {
+		border-bottom-color: aqua !important;
+	}
 }
+
+
 
 .desc-buttons--tablet {
 	@include bp-tablet-up {
