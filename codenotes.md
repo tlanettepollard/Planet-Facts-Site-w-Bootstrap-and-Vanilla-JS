@@ -130,12 +130,11 @@ I can't believe it's been a year since I last checked in. My goal is to complete
 
 ### 02/14/2023
 
-
 Happy Valentine's Day! I just realized that I should have used Bootstrap. the functionality works, but I need to do better with the design. I'm going to make an new repository to start that again.
 
 ### 02/18/2023
 
-Happy Weekend! I decided to research how to use JS to navigate between the pages without having multiple pages. Basically, I wanted to see if I could make a single page app just using HTML, JS, CSS. So far it has worked! 
+Happy Weekend! I decided to research how to use JS to navigate between the pages without having multiple pages. Basically, I wanted to see if I could make a single page app just using HTML, JS, CSS. So far it has worked!
 
 Resources:
 
@@ -143,3 +142,13 @@ Resources:
 - [JavaScript Void Keyword Explained](https://www.freecodecamp.org/news/javascript-void-keyword-explained/)
 - [nithinmanoj10/Planets-Fact-Site](https://github.com/nithinmanoj10/Planets-Fact-Site): used for guidance in accessing page information for different planets on one page.
 
+### 02/19/2023
+
+Hi. I'm researching how to alter/modify Bootstrap variables to include my colors.
+
+Resources:
+
+- [How to Override Bootstrap Sass Using Sass Variables](https://www.zealousweb.com/how-to-override-bootstrap-sass-using-sass-variables/)
+- [How to Customize Bootstrap with Sass](https://www.freecodecamp.org/news/how-to-customize-bootstrap-with-sass/)
+- [How to Customize Bootstrap Theme Using Sass](https://dev.to/orighoprecious/how-to-customize-bootstrap-theme-using-sass-54a8)
+- [Getting Started: Theming Bootstrap](https://digital.arizona.edu/arizona-bootstrap/docs/2.0/getting-started/theming/)
