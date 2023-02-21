@@ -1,6 +1,8 @@
+
 .desc-buttons--mobile {
 	height: 5rem;
 	width: 100%;
+
 }
 
 .desc-buttons--tablet {
@@ -12,9 +14,9 @@
 }
 
 // Mobile Buttons on page load
-/*
- .mercury > .btn-overview--mobile { 
-	border-bottom: 4px solid $mercury;
+
+.mercury > .btn-overview--mobile {
+	border-bottom: 4px solid $mercury !important;
 }
 
 .venus > .btn-overview--mobile {
@@ -37,7 +39,7 @@
 }
 .earth > .btn-overview--mobile {
 	border-bottom: 4px solid $earth;
-}*/
+}
 
 // Tablet Buttons--on page load
 .mercury > .btn-overview {
@@ -64,3 +66,5 @@
 .earth > .btn-overview {
 	background-color: $earth;
 }
+
+

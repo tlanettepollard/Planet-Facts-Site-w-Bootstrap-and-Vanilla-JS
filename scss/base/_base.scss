@@ -17,14 +17,14 @@ body {
 }
 
 body {
-	background-color: $color-dk-blue;
+	background-color: $color-dk-blue !important;
 	background-image: url('/assets/background-stars.svg');
 	background-repeat: repeat;
 	background-size: 60%;
 	background-position: center;
 	width: 100vw;
 	min-height: 100%;
-	color: $color-white;
+	color: $color-white !important;
 }
 
 ol,
