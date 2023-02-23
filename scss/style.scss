@@ -12,6 +12,7 @@
 @import './components/planetStats';
 
 // Layout
+
 @import './layout/footer';
 @import './layout/main';
 @import './layout/navbar';
@@ -19,10 +20,3 @@
 // Vendors
 @import './vendors/custom';
 @import './vendors/normalize';
-
-//Bootstrap
-@import '../node_modules/bootstrap/scss/functions';
-@import '../node_modules/bootstrap/scss/variables';
-@import '../node_modules/bootstrap/scss/mixins';
-
-
