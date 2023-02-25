@@ -10,20 +10,18 @@
 			rel="stylesheet"
 			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
 			crossorigin="anonymous"
-		/> 
+		/>
 		<!-- My CSS -->
-		<link rel="stylesheet" href="/dist/css/style.css" />
+		<link rel="stylesheet" href="dist/css/style.css" />
 
 		<title>Frontend Mentor | Planets fact site</title>
 	</head>
 	<body>
 		<div class="wrapper">
 			<header class="header">
-				<nav
-					class="navbar navbar-dark navbar-expand-md bg-dark border-bottom border-light"
-				>
+				<nav class="navbar navbar-dark navbar-expand-md bgDark borderBottom">
 					<div class="container-fluid flex-md-column flex-lg-row">
-						<a href="./index.html" class="navbar-brand header-title p-2"
+						<a href="./index.html" class="navbar-brand header-title p-2 mt-2"
 							>The Planets
 						</a>
 						<button
@@ -42,7 +40,7 @@
 							aria-labelledby="offcanvasDarkNavbarLabel"
 						>
 							<div
-								class="offcanvas-header border-bottom border-light"
+								class="offcanvas-header borderBottom"
 								id="offcanvasDarkNavbarLabel"
 							>
 								<h5
@@ -61,10 +59,10 @@
 								class="offcanvas-body d-lg-flex flex-lg-row justify-content-lg-end align-items-lg-center"
 							>
 								<ul
-									class="navbar-nav d-flex flex-column flex-md-row justify-content-evenly p-2"
+									class="navbar-nav d-flex flex-column flex-md-row justify-content-evenly mt-md-2 p-2"
 								>
 									<li
-										class="nav-item nav_item--mercury d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 border-bottom border-light"
+										class="nav-item nav_item--mercury d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
 									>
 										<div>
 											<img
@@ -87,7 +85,7 @@
 										</a>
 									</li>
 									<li
-										class="nav-item nav_item--venus d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 border-bottom border-light"
+										class="nav-item nav_item--venus d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
 									>
 										<div>
 											<img
@@ -110,7 +108,7 @@
 										</a>
 									</li>
 									<li
-										class="nav-item nav_item--earth d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 border-bottom border-light"
+										class="nav-item nav_item--earth d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
 									>
 										<div>
 											<img
@@ -133,7 +131,7 @@
 										</a>
 									</li>
 									<li
-										class="nav-item nav_item--mars d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 border-bottom border-light"
+										class="nav-item nav_item--mars d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
 									>
 										<div>
 											<img
@@ -156,7 +154,7 @@
 										</a>
 									</li>
 									<li
-										class="nav-item nav_item--jupiter d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 border-bottom border-light"
+										class="nav-item nav_item--jupiter d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
 									>
 										<div>
 											<img
@@ -179,7 +177,7 @@
 										</a>
 									</li>
 									<li
-										class="nav-item nav_item--saturn d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 border-bottom border-light"
+										class="nav-item nav_item--saturn d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
 									>
 										<div>
 											<img
@@ -202,7 +200,7 @@
 										</a>
 									</li>
 									<li
-										class="nav-item nav_item--uranus d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 border-bottom border-light"
+										class="nav-item nav_item--uranus d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
 									>
 										<div>
 											<img
@@ -258,43 +256,34 @@
 			<!-- Main Section -->
 			<main class="main container-fluid my-5">
 				<section
-					class="description desc-buttons--mobile container-fluid d-flex flex-row justify-content-evenly align-items-center d-md-none border-bottom border-light p-2"
+					class="desc-buttons--mobile container-fluid d-flex flex-row justify-content-evenly align-items-center d-md-none p-2 border-bottom mercury"
 				>
-					<a
-						href=""
-						class="btn-mobile btn-overview--mobile desc-button--link text-center p-2"
-					>
-						<h4 class="mobile-title m-0 text-uppercase mercury">Overview</h4>
-					</a>
-					<a
-						href=""
-						class="btn-mobile btn-structure--mobile desc-button--link text-center"
-					>
+					<button class="btn btn-mobile btn-overview--mobile text-center p-2">
+						<h4 class="mobile-title m-0 text-uppercase">Overview</h4>
+					</button>
+					<button class="btn btn-mobile btn-structure--mobile text-center">
 						<h4 class="mobile-title m-0 text-uppercase">Structure</h4>
-					</a>
-					<a
-						href=""
-						class="btn-mobile btn-surface--mobile desc-button--link text-center"
-					>
+					</button>
+					<button class="btn btn-mobile btn-surface--mobile text-center">
 						<h4 class="mobile-title m-0 text-uppercase">Surface</h4>
-					</a>
+					</button>
 				</section>
 
 				<section class="desc-planet container-fluid row gap-lg-2">
-					<div class="planet-image_container container col-12 col-lg-4 my-5">
+					<div class="planet-image_container container col-12 col-lg-4 my-5 position-relative">
 						<div class="planet-image--bottom container pt-md-5">
 							<img
 								src="/assets/planet-mercury.svg"
 								alt="mercury planet image"
 								id="main-image"
-								class="planet-image planet-image--mercury mx-auto d-block p-5 img-fluid"
+								class="planet-image planet-image--mercury mx-auto d-block p-5 img-fluid position-relative"
 							/>
 						</div>
 						<div class="planet-image--top container">
 							<img
-								src=""
+								src="./assets/geology-mercury.png"
 								alt="mercury geology image"
-								class="geology-image mercury-img"
+								class="geology-image mercury-img img-fluid position-absolute d-none"
 							/>
 						</div>
 					</div>
@@ -330,32 +319,29 @@
 							</div>
 
 							<div
-								class="description desc-buttons--tablet d-none d-md-block d-md-flex flex-md-column justify-content-center col-md-5 offset-md-1 col-lg-9 gap-md-3 offset-lg-2 pt-md-3 py-lg-5"
+								class="desc-buttons--tablet d-none d-md-block d-md-flex flex-md-column justify-content-center col-md-5 offset-md-1 col-lg-9 gap-md-3 offset-lg-2 pt-md-3 py-lg-5 mercury"
 							>
-								<a
-									href=""
-									class="btn-tablet btn-overview desc-button--link text-md-start border border-1 active"
+								<button
+									class="btn btn-tablet btn-overview text-md-start border border-1 active"
 								>
 									<p class="btn-text btn-info--title my-auto py-2">
 										<span class="span-number btn-text px-3">01</span>Overview
 									</p>
-								</a>
-								<a
-									href=""
-									class="btn-tablet btn-structure desc-button--link text-md-start border border-1"
+								</button>
+								<button
+									class="btn btn-tablet btn-structure text-md-start border border-1"
 								>
 									<p class="btn-info--title btn-text my-auto py-2">
 										<span class="span-number px-3">02</span>Structure
 									</p>
-								</a>
-								<a
-									href=""
-									class="btn-tablet btn-surface desc-button--link text-md-start border border-1"
+								</button>
+								<button
+									class="btn btn-tablet btn-surface text-md-start border border-1"
 								>
 									<p class="btn-text btn-info--title my-auto py-2">
 										<span class="span-number px-3">03</span>Surface Geology
 									</p>
-								</a>
+								</button>
 							</div>
 						</div>
 					</div>

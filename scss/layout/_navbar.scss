@@ -14,20 +14,21 @@ header {
 	nav {
 		width: 100%;
 		height: auto;
+		@include bp-tablet-up {
+			height: 9.9375rem;
+		}
 		.offcanvas-body {
-			
 			.navbar-nav {
 				height: 37.5rem;
 				@include bp-tablet-up {
 					width: 41.5625rem;
-					height: 9.9375rem;
+					height: 3.125rem;
 				}
 
 				@include bp-xl-up {
 					height: 5.5rem;
 				}
 				li {
-					
 					@include bp-tablet-up {
 						border: none !important;
 					}
@@ -35,20 +36,23 @@ header {
 						text-decoration: none;
 					}
 				}
+
+				.borderBottom {
+					border-bottom: 1px solid $color-dk-gray;
+				}
 			}
 		}
 	}
-}
 
-.bg-dark {
-	background-color: transparent !important;
+	.borderBottom {
+		border-bottom: 1px solid $color-dk-gray;
+	}
+	.bgDark {
+		background-color: transparent !important;
+	}
 }
 
 .text-bg-dark {
 	background-color: $color-dk-blue !important;
 	background-image: url('/assets/background-stars.svg');
-}
-
-.border-light {
-	border-color: $color-dk-gray !important;
 }

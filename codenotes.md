@@ -153,9 +153,10 @@ Resources:
 - [How to Customize Bootstrap Theme Using Sass](https://dev.to/orighoprecious/how-to-customize-bootstrap-theme-using-sass-54a8)
 - [Getting Started: Theming Bootstrap](https://digital.arizona.edu/arizona-bootstrap/docs/2.0/getting-started/theming/)
 
-### 02/20/2023 
-Hi. I was still researching how to add my custom colors to Bootstrap. I think I may have found a better article than the ones I found yesterday. This article had more detail and add an important piece that was left out of the others: you need to put your custom changes before you import the Bootstrap variables file. I'll try this tomorrow. 
 
-Resources:
+### 02/25/2023
 
-- [Customizing Bootstrap 5 with Sass](https://www.initialapps.com/customizing-bootstrap-5-with-sass/)
+Hi. I've done a lot of research about overriding Bootstrap's color scheme. I decided to do a slight work-around. Uggggghhh!!! So, why were my overrides were not working? My dumbbutt didn't add the scss file to the main scss file.
+I spent a week researching ways to override Bootstrap colors and I was doing it right all of this time.
+
+
