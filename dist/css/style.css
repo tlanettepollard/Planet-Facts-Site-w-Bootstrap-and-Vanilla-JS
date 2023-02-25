@@ -398,18 +398,19 @@ header nav .offcanvas-body .navbar-nav {
 header nav .offcanvas-body .navbar-nav li a {
   text-decoration: none;
 }
-
-.bg-dark {
+header nav .offcanvas-body .navbar-nav .borderBottom {
+  border-bottom: 1px solid #38384f;
+}
+header .borderBottom {
+  border-bottom: 1px solid #38384f;
+}
+header .bgDark {
   background-color: transparent !important;
 }
 
 .text-bg-dark {
   background-color: #070724 !important;
   background-image: url("/assets/background-stars.svg");
-}
-
-.border-light {
-  border-color: #38384f !important;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

@@ -152,3 +152,8 @@ Resources:
 - [How to Customize Bootstrap with Sass](https://www.freecodecamp.org/news/how-to-customize-bootstrap-with-sass/)
 - [How to Customize Bootstrap Theme Using Sass](https://dev.to/orighoprecious/how-to-customize-bootstrap-theme-using-sass-54a8)
 - [Getting Started: Theming Bootstrap](https://digital.arizona.edu/arizona-bootstrap/docs/2.0/getting-started/theming/)
+
+
+### 02/25/2023
+
+Hi. I've done a lot of research about overriding Bootstrap's color scheme. I decided to do a slight work-around. 
