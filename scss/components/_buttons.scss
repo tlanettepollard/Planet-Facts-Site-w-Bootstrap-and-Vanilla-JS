@@ -1,16 +1,20 @@
-.desc-buttons--mobile {
-	height: 5rem;
-	width: 100%;
-}
+.main {
+	.desc-buttons--mobile.desc-buttons--mobile {
+		height: 3.125rem;
+		width: 100%;
+	}
 
-.desc-buttons--tablet {
-	@include bp-tablet-up {
-		border: none;
-		width: 17.5625rem;
-		height: 100%;
+	.border-bottom {
+		border-color: $color-dk-gray !important;
+	}
+	.desc-buttons--tablet {
+		@include bp-tablet-up {
+			border: none;
+			width: 17.5625rem;
+			height: 100%;
+		}
 	}
 }
-
 // Mobile Buttons on page load
 
 .mercury > .btn-overview--mobile {

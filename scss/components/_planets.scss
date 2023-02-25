@@ -1,6 +1,6 @@
 .planet-image__container {
 	margin-right: 15rem;
-    height: auto;
+	height: auto;
 
 	.planet-image--bottom {
 		margin: auto;
@@ -127,5 +127,71 @@
 				height: 28.125rem;
 			}
 		}
+	}
+}
+
+.planet-image--top {
+	.geology-image {
+		width: 3.125rem;
+		height: 3.6425rem;
+
+		@include bp-tablet-up {
+			width: 5rem;
+			height: 5.8281rem;
+		}
+
+		@include bp-xl-up {
+			width: 10.1875rem;
+			height: 12.4375rem;
+		}
+	}
+
+	.earth-img {
+		position: absolute;
+		bottom: -3.125rem;
+		left: 35%;
+		z-index: 0;
+	}
+	.neptune-img {
+		position: absolute;
+		bottom: -3.125rem;
+		left: 35%;
+		z-index: 0;
+	}
+	.mars-img {
+		position: absolute;
+		bottom: -3.125rem;
+		left: 30%;
+		z-index: 0;
+	}
+	.uranus-img {
+		position: absolute;
+		bottom: -3.125rem;
+		left: 35%;
+		z-index: 0;
+	}
+	.venus-img {
+		position: absolute;
+		bottom: -3.125rem;
+		left: 35%;
+		z-index: 0;
+	}
+	.jupiter-img {
+		position: absolute;
+		bottom: -3.125rem;
+		left: 40%;
+		z-index: 0;
+	}
+	.saturn-img {
+		position: absolute;
+		bottom: 5rem;
+		left: 40%;
+		z-index: 0;
+	}
+	.mercury-img {
+		position: absolute;
+		bottom: -3.125rem;
+		left: 30%;
+		z-index: 0;
 	}
 }
