@@ -25,6 +25,387 @@
 		<title>Frontend Mentor | Planets fact site</title>
 	</head>
 	<body>
+		<div class="wrapper">
+			<header class="header">
+				<nav class="navbar navbar-dark navbar-expand-md bgDark borderBottom">
+					<div class="container-fluid flex-md-column flex-lg-row">
+						<a href="./index.html" class="navbar-brand header-title p-2 mt-2"
+							>The Planets
+						</a>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="offcanvas"
+							data-bs-target="#offcanvasDarkNavbar"
+							aria-controls="offcanvasDarkNavbar"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div
+							class="offcanvas offcanvas-start text-bg-dark"
+							tabindex="-1"
+							id="offcanvasDarkNavbar"
+							aria-labelledby="offcanvasDarkNavbarLabel"
+						>
+							<div
+								class="offcanvas-header borderBottom"
+								id="offcanvasDarkNavbarLabel"
+							>
+								<h5
+									class="offcanvas-title text-white header-title p-2 d-md-none"
+								>
+									The Planets
+								</h5>
+								<button
+									class="btn-close btn-close-white d-md-none"
+									type="button"
+									data-bs-dismiss="offcanvas"
+									aria-label="Close"
+								></button>
+							</div>
+							<div
+								class="offcanvas-body d-lg-flex flex-lg-row justify-content-lg-end align-items-lg-center"
+							>
+								<ul
+									class="navbar-nav d-flex flex-column flex-md-row justify-content-evenly mt-md-2 p-2"
+								>
+									<li
+										class="nav-item nav_item--mercury d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/mercury-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--mercury link-text active h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="/index.html"
+												>Mercury</a
+											>
+										</div>
+										<a href="javascript:void(0)" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--venus d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/venus-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--venus link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="/pages/venus.html"
+												>Venus</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--earth d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/earth-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--earth link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="/pages/earth.html"
+												>Earth</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--mars d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/mars-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--mars link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="./pages/mars.html"
+												>Mars</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--jupiter d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/jupiter-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--jupiter link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="./pages/jupiter.html"
+												>Jupiter</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--saturn d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/saturn-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--saturn link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="./pages/saturn.html"
+												>Saturn</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--uranus d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/uranus-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--uranus link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="./pages/uranus.html"
+												>Uranus</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--neptune d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1"
+									>
+										<div>
+											<img
+												src="assets/neptune-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--neptune link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="./pages/neptune.html"
+												>Neptune</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<!-- End Header Section -->
+
+			<main class="main container-fluid my-5">
+				<section
+					class="desc-buttons--mobile container-fluid d-flex flex-row justify-content-evenly align-items-center d-md-none p-2 border-bottom venus"
+				>
+					<button
+						class="btn btn-mobile btn-overview--mobile desc-button text-center p-2"
+					>
+						<h4 class="mobile-title m-0 text-uppercase">Overview</h4>
+					</button>
+					<button
+						class="btn btn-mobile btn-structure--mobile desc-button text-center"
+					>
+						<h4 class="mobile-title m-0 text-uppercase">Structure</h4>
+					</button>
+					<button
+						class="btn btn-mobile btn-surface--mobile desc-button text-center"
+					>
+						<h4 class="mobile-title m-0 text-uppercase">Surface</h4>
+					</button>
+				</section>
+
+				<section class="desc-planet container-fluid row gap-lg-2">
+					<div
+						class="planet-image_container container col-12 col-lg-4 my-5 position-relative"
+					>
+						<div class="planet-image--bottom container pt-md-5">
+							<img
+								src=""
+								alt="mercury planet image"
+								id="main-image"
+								class="planet-image planet-image--mercury mx-auto d-block p-5 img-fluid position-relative"
+							/>
+						</div>
+						<div class="planet-image--top container">
+							<img
+								src=""
+								alt="mercury geology image"
+								class="geology-image mercury-img img-fluid position-absolute d-none"
+							/>
+						</div>
+					</div>
+					<!-- planet-image--container -->
+
+					<div class="top_container container col-12 col-lg-4">
+						<div class="row">
+							<div class="planet-info container col-md-5 col-lg-9 offset-lg-2">
+								<h1
+									id="main-title"
+									class="planet-info--title h1-title text-center text-md-start"
+								></h1>
+								<p id="main-text" class="planet-info--text paragraph"></p>
+								<p class="source-text">
+									Source :
+									<a href="" class="source-link text-white" target="_blank"
+										>Wikipedia</a
+									>
+									<img
+										src="./assets/icon-source.svg"
+										alt="source icon"
+										class="planet-info--icon"
+									/>
+								</p>
+							</div>
+
+							<div
+								class="desc-buttons--tablet d-none d-md-block d-md-flex flex-md-column justify-content-center col-md-5 offset-md-1 col-lg-9 gap-md-3 offset-lg-2 pt-md-3 py-lg-5 venus"
+							>
+								<button
+									class="btn btn-tablet btn-overview desc-button text-md-start border border-1 active"
+								>
+									<p class="btn-text btn-info--title my-auto py-2">
+										<span class="span-number btn-text px-3">01</span>Overview
+									</p>
+								</button>
+								<button
+									class="btn btn-tablet btn-structure desc-button text-md-start border border-1"
+								>
+									<p class="btn-info--title btn-text my-auto py-2">
+										<span class="span-number px-3">02</span>Structure
+									</p>
+								</button>
+								<button
+									class="btn btn-tablet btn-surface desc-button text-md-start border border-1"
+								>
+									<p class="btn-text btn-info--title my-auto py-2">
+										<span class="span-number px-3">03</span>Surface Geology
+									</p>
+								</button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- desc-planet -->
+
+				<!-- Begin Footer -->
+				<footer class="footer container-fluid mb-0">
+					<section class="bottom-section_container container planet-facts mt-5">
+						<div
+							class="facts_container container d-flex flex-column flex-md-row justify-content-between w-100"
+						>
+							<div
+								class="rotation facts d-flex flex-row flex-md-column justify-content-between align-items-center align-items-md-start justify-content-md-evenly border border-1 me-2"
+							>
+								<p class="facts-title h4-title">Rotation Time</p>
+								<p id="rotation-time" class="facts-data"></p>
+							</div>
+							<div
+								class="revolution facts d-flex flex-row flex-md-column justify-content-between align-items-center align-items-md-start border border-1 me-2"
+							>
+								<p class="facts-title h4-title">Revolution Time</p>
+								<p id="revolution-time" class="facts-data"></p>
+							</div>
+							<div
+								class="radius facts d-flex flex-row flex-md-column justify-content-between align-items-center align-items-md-start border border-1 me-2"
+							>
+								<p class="facts-title h4-title">Radius</p>
+								<p id="radius-size" class="facts-data"></p>
+							</div>
+							<div
+								class="temperature facts d-flex flex-row flex-md-column justify-content-between align-items-center align-items-md-start border border-1 me-2"
+							>
+								<p class="facts-title h4-title">Average Temp.</p>
+								<p id="avg-temperature" class="facts-data"></p>
+							</div>
+						</div>
+
+						<!-- End Planet Facts -->
+
+						<div class="attribution container mt-5">
+							<p>
+								Challenge by
+								<a
+									href="https://www.frontendmentor.io? ref=challenge"
+									target="_blank"
+									>Frontend Mentor</a
+								>. &nbsp Coded by
+								<a href="https://github.com/tlanettepollard">T.Lanette</a>
+							</p>
+						</div>
+					</section>
+				</footer>
+			</main>
+		</div>
+		<!-- End Main Section -->
+
 		Venus
 
 		<!-- Overview Content Start -->
@@ -67,5 +448,8 @@
 			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
 			crossorigin="anonymous"
 		></script>
+
+		<!-- My JS -->
+		<script src="/js/main.js"></script>
 	</body>
 </html>
