@@ -20,7 +20,7 @@ const rotationInfo = document.getElementById('rotation-time');
 const revolutionInfo = document.getElementById('revolution-time');
 const radiusInfo = document.getElementById('radius-size');
 const temperatureInfo = document.getElementById('avg-temperature');
-const main = document.querySelector('.main');
+//const main = document.querySelector('.main');
 
 //Buttons Mobile
 const overviewBtnMobile = document.querySelector('.btn-overview--mobile');
