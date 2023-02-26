@@ -225,58 +225,70 @@ h4 {
   background-color: #419ebb;
 }
 
-/*
 .mercury > .btn-overview--mobile {
-	border-bottom: 4px solid $mercury;
+  border-bottom: 4px solid #419ebb;
 }
 
 .venus > .btn-overview--mobile {
-	border-bottom: 4px solid $venus;
-}
-.mars > .btn-overview--mobile {
-	border-bottom: 4px solid $mars;
-}
-.uranus > .btn-overview--mobile {
-	border-bottom: 4px solid $uranus;
-}
-.saturn > .btn-overview--mobile {
-	border-bottom: 4px solid $saturn;
-}
-.neptune > .btn-overview--mobile {
-	border-bottom: 4px solid $neptune;
-}
-.jupiter > .btn-overview--mobile {
-	border-bottom: 4px solid $jupiter;
-}
-.earth > .btn-overview--mobile {
-	border-bottom: 4px solid $earth;
+  border-bottom: 4px solid #eda249;
 }
 
-// Tablet Buttons--on page load
+.mars > .btn-overview--mobile {
+  border-bottom: 4px solid #d14c32;
+}
+
+.uranus > .btn-overview--mobile {
+  border-bottom: 4px solid #1ec2a4;
+}
+
+.saturn > .btn-overview--mobile {
+  border-bottom: 4px solid #cd5120;
+}
+
+.neptune > .btn-overview--mobile {
+  border-bottom: 4px solid #2d68f0;
+}
+
+.jupiter > .btn-overview--mobile {
+  border-bottom: 4px solid #d83a34;
+}
+
+.earth > .btn-overview--mobile {
+  border-bottom: 4px solid #6f2ed6;
+}
+
 .mercury > .btn-overview {
-	background-color: $mercury;
+  background-color: #419ebb;
 }
+
 .venus > .btn-overview {
-	background-color: $venus;
+  background-color: #eda249;
 }
+
 .mars > .btn-overview {
-	background-color: $mars;
+  background-color: #d14c32;
 }
+
 .uranus > .btn-overview {
-	background-color: $uranus;
+  background-color: #1ec2a4;
 }
+
 .saturn > .btn-overview {
-	background-color: $saturn;
+  background-color: #cd5120;
 }
+
 .neptune > .btn-overview {
-	background-color: $neptune;
+  background-color: #2d68f0;
 }
+
 .jupiter > .btn-overview {
-	background-color: $jupiter;
+  background-color: #d83a34;
 }
+
 .earth > .btn-overview {
-	background-color: $earth;
-}*/
+  background-color: #6f2ed6;
+}
+
 .desc-planet {
   height: auto;
 }

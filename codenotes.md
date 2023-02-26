@@ -153,10 +153,11 @@ Resources:
 - [How to Customize Bootstrap Theme Using Sass](https://dev.to/orighoprecious/how-to-customize-bootstrap-theme-using-sass-54a8)
 - [Getting Started: Theming Bootstrap](https://digital.arizona.edu/arizona-bootstrap/docs/2.0/getting-started/theming/)
 
-
 ### 02/25/2023
 
 Hi. I've done a lot of research about overriding Bootstrap's color scheme. I decided to do a slight work-around. Uggggghhh!!! So, why were my overrides were not working? My dumbbutt didn't add the scss file to the main scss file.
 I spent a week researching ways to override Bootstrap colors and I was doing it right all of this time.
 
+### 02/26/2023
 
+I realized after spending to much time researching that I needed to simplify my Single Page App to just a multipage website. I was spending too much time to make it work with Vanilla JS, when I should've used React. So, this project will be a multi-page instead of a single page.
