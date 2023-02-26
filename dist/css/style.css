@@ -211,6 +211,9 @@ h4 {
 .main .border-bottom {
   border-color: #38384f !important;
 }
+.main .btn-overview--mobile {
+  border-bottom: 0.25rem solid #419ebb !important;
+}
 @media only screen and (min-width: 768px) {
   .main .desc-buttons--tablet {
     border: none;
@@ -218,71 +221,62 @@ h4 {
     height: 100%;
   }
 }
-
-.mercury > .btn-overview--mobile {
-  border-bottom: 4px solid #419ebb;
-}
-
-.venus > .btn-overview--mobile {
-  border-bottom: 4px solid #eda249;
-}
-
-.mars > .btn-overview--mobile {
-  border-bottom: 4px solid #d14c32;
-}
-
-.uranus > .btn-overview--mobile {
-  border-bottom: 4px solid #1ec2a4;
-}
-
-.saturn > .btn-overview--mobile {
-  border-bottom: 4px solid #cd5120;
-}
-
-.neptune > .btn-overview--mobile {
-  border-bottom: 4px solid #2d68f0;
-}
-
-.jupiter > .btn-overview--mobile {
-  border-bottom: 4px solid #d83a34;
-}
-
-.earth > .btn-overview--mobile {
-  border-bottom: 4px solid #6f2ed6;
-}
-
-.mercury > .btn-overview {
+.main .btn-overview {
   background-color: #419ebb;
 }
 
+/*
+.mercury > .btn-overview--mobile {
+	border-bottom: 4px solid $mercury;
+}
+
+.venus > .btn-overview--mobile {
+	border-bottom: 4px solid $venus;
+}
+.mars > .btn-overview--mobile {
+	border-bottom: 4px solid $mars;
+}
+.uranus > .btn-overview--mobile {
+	border-bottom: 4px solid $uranus;
+}
+.saturn > .btn-overview--mobile {
+	border-bottom: 4px solid $saturn;
+}
+.neptune > .btn-overview--mobile {
+	border-bottom: 4px solid $neptune;
+}
+.jupiter > .btn-overview--mobile {
+	border-bottom: 4px solid $jupiter;
+}
+.earth > .btn-overview--mobile {
+	border-bottom: 4px solid $earth;
+}
+
+// Tablet Buttons--on page load
+.mercury > .btn-overview {
+	background-color: $mercury;
+}
 .venus > .btn-overview {
-  background-color: #eda249;
+	background-color: $venus;
 }
-
 .mars > .btn-overview {
-  background-color: #d14c32;
+	background-color: $mars;
 }
-
 .uranus > .btn-overview {
-  background-color: #1ec2a4;
+	background-color: $uranus;
 }
-
 .saturn > .btn-overview {
-  background-color: #cd5120;
+	background-color: $saturn;
 }
-
 .neptune > .btn-overview {
-  background-color: #2d68f0;
+	background-color: $neptune;
 }
-
 .jupiter > .btn-overview {
-  background-color: #d83a34;
+	background-color: $jupiter;
 }
-
 .earth > .btn-overview {
-  background-color: #6f2ed6;
-}
-
+	background-color: $earth;
+}*/
 .desc-planet {
   height: auto;
 }

@@ -7,6 +7,10 @@
 	.border-bottom {
 		border-color: $color-dk-gray !important;
 	}
+
+	.btn-overview--mobile {
+		border-bottom: 0.25rem solid $mercury !important;
+	}
 	.desc-buttons--tablet {
 		@include bp-tablet-up {
 			border: none;
@@ -14,9 +18,15 @@
 			height: 100%;
 		}
 	}
+
+	.btn-overview {
+		background-color: $mercury;
+	}
 }
+
 // Mobile Buttons on page load
 
+/*
 .mercury > .btn-overview--mobile {
 	border-bottom: 4px solid $mercury;
 }
@@ -67,4 +77,4 @@
 }
 .earth > .btn-overview {
 	background-color: $earth;
-}
+}*/

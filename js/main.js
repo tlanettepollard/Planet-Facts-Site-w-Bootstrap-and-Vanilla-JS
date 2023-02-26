@@ -12,7 +12,6 @@ fetch('/data.json')
 // Variables
 
 const planetMenuLinks = document.querySelectorAll('.nav__link');
-const planetIconLinks = document.querySelectorAll('.icon-link');
 const main = document.querySelector('.main');
 
 // Get planet object from data based on the link that is clicked
@@ -24,7 +23,7 @@ const getPlanetData = (links) => {
 			planetsData.forEach(function (planetObject) {
 				if (planetObject.name == planetLink.text) {
 					currentPlanet = planetObject;
-					updatePlanetView(planetObject);
+					updatePlanetInfo(planetObject);
 				}
 			});
 		});
@@ -33,114 +32,48 @@ const getPlanetData = (links) => {
 
 getPlanetData(planetMenuLinks);
 
-// Update Planet Views
+// Update Planet Info
 
-const updatePlanetView = (planet) => {
-	const planetName = document.getElementById('main-title');
-	const planetImage = document.getElementById('main-image');
-	const geologyImage = document.querySelector('.geology-image');
-	const planetDesc = document.getElementById('main-text');
-	const source = document.querySelector('.source-link');
-	const planetRotation = document.getElementById('rotation-time');
-	const planetRevolution = document.getElementById('revolution-time');
-	const planetRadius = document.getElementById('radius-size');
-	const planetTemperature = document.getElementById('avg-temperature');
+const planetName = document.getElementById('main-title');
+const planetImage = document.getElementById('main-image');
+const geologyImage = document.querySelector('.geology-image');
+const planetDesc = document.getElementById('main-text');
+const source = document.querySelector('.source-link');
+const planetRotation = document.getElementById('rotation-time');
+const planetRevolution = document.getElementById('revolution-time');
+const planetRadius = document.getElementById('radius-size');
+const planetTemperature = document.getElementById('avg-temperature');
 
-	const { rotation, revolution, radius, temperature } = planet;
-	console.log(planet);
-	const { planet: planetImg, internal, geology } = planet.images;
+// Mobile Buttons
+const overviewBtnMobile = document.querySelector('.btn-overview--mobile');
+const structureBtnMobile = document.querySelector('.btn-structure--mobile');
+const geologyBtnMobile = document.querySelector('.btn-surface--mobile');
 
-	// Buttons Mobile
-	const overviewBtnMobile = document.querySelector('.btn-overview--mobile');
-	const structureBtnMobile = document.querySelector('.btn-structure--mobile');
-	const geologyBtnMobile = document.querySelector('.btn-surface--mobile');
+//Tablet Buttons
+const overviewBtn = document.querySelector('.btn-overview');
+const structureBtn = document.querySelector('.btn-structure');
+const geologyBtn = document.querySelector('.btn-surface');
 
-	// Buttons Tablet
-	const overviewBtn = document.querySelector('.btn-overview');
-	const structureBtn = document.querySelector('.btn-structure');
-	const geologyBtn = document.querySelector('.btn-surface');
-
-	planetName.innerHTML = planet.name;
-	planetDesc.innerHTML = planet.overview.content;
-	source.href = planet.overview.source;
-	planetRotation.innerHTML = planet.rotation;
-	planetRevolution.innerHTML = planet.revolution;
-	planetRadius.innerHTML = planet.radius;
-	planetTemperature.innerHTML = planet.temperature;
+const updatePlanetInfo = (planet) => {
+	planetName.innerText = planet.name;
 	planetImage.src = planet.images.planet;
+	planetDesc.innerText = planet.overview.content;
+	source.href = planet.overview.source;
+	planetRotation.innerText = planet.rotation;
+	planetRevolution.innerText = planet.revolution;
+	planetRadius.innerText = planet.radius;
+	planetTemperature.innerText = planet.temperature;
 
-	// Buttons
-
-	// Overview Mobile
+	//Overview Button
 	overviewBtnMobile.addEventListener('click', () => {
-		planetDesc.innerHTML = planet.overview.content;
-		source.href = planet.overview.source;
-		planetImage.src = planet.images.planet;
-		geologyImage.style.display = 'none';
-		overviewBtnMobile.style.backgroundColor = 'transparent';
-		structureBtnMobile.style.backgroundColor = 'transparent';
-		geologyBtnMobile.style.backgroundColor = 'transparent';
-
-		if (window.innerWidth < 768) {
-			overviewBtnMobile.style.color = planet.color;
-			overviewBtnMobile.style.borderBottom = `4px solid #${planet.color}`;
-			overviewBtnMobile.style.background = 'transparent';
-			structureBtnMobile.style.borderBottom = 'transparent';
-			geologyBtnMobile.style.borderBottom = 'transparent';
-		}
-	});
-
-	// Overview Tablet
-	overviewBtn.addEventListener('click', () => {
 		planetDesc.innerText = planet.overview.content;
 		source.href = planet.overview.source;
 		planetImage.src = planet.images.planet;
 		geologyImage.style.display = 'none';
-		overviewBtn.style.backgroundColor = `#${planet.color}`;
-		structureBtn.style.backgroundColor = 'transparent';
-		geologyBtn.style.backgroundColor = 'transparent';
-
-		if (window.innerWidth >= 768) {
-			overviewBtn.style.borderBottom = 'transparent';
-			overviewBtn.style.backgroundColor = `#${planet.color}`;
-			geologyBtn.style.backgroundColor = 'transparent';
-			structureBtn.style.backgroundColor = 'transparent';
-		}
-	});
-
-	// Structure
-	structureBtnMobile.addEventListener('click', () => {
-		planetDesc.innerHTML = planet.structure.content;
-		source.href = planet.structure.source;
-		planetImage.src = planet.images.internal;
-		geologyImage.style.display = 'none';
 		overviewBtnMobile.style.backgroundColor = 'transparent';
 		structureBtnMobile.style.backgroundColor = 'transparent';
 		geologyBtnMobile.style.backgroundColor = 'transparent';
 
-		if (window.innerWidth < 768) {
-			structureBtnMobile.style.borderBottom = `4px solid #${planet.color}`;
-			structureBtnMobile.style.background = 'transparent';
-			geologyBtnMobile.style.borderBottom = 'transparent';
-			overviewBtnMobile.style.borderBottom = 'transparent';
-		}
-	});
-
-	// Surface
-	surfaceBtnMobile.addEventListener('click', () => {
-		planetDesc.innerHTML = planet.geology.content;
-		source.href = planet.geology.source;
-		planetImage.src = planet.images.geology;
-		geologyImage.style.display = 'block';
-		overviewBtnMobile.style.backgroundColor = 'transparent';
-		structureBtnMobile.style.backgroundColor = 'transparent';
-		geologyBtnMobile.style.backgroundColor = 'transparent';
-
-		if (window.innerWidth < 768) {
-			surfaceBtnMobile.style.borderBottom = `4px solid #${planet.color}!important`;
-			geologyBtnMobile.style.background = 'transparent';
-			structureBtnMobile.style.borderBottom = 'transparent';
-			overviewBtnMobile.style.borderBottom = 'transparent';
-		}
+		
 	});
 };
