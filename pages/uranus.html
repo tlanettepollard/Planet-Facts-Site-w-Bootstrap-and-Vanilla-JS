@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon-32x32.png"
+		/>
 
-  <!-- Bootstrap -->
+		<!-- Bootstrap -->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -15,65 +20,290 @@
 		/>
 
 		<!-- My CSS -->
-  
-  <title>Frontend Mentor | Planets fact site</title>
-</head>
-<body>
-  Uranus
+		<link rel="stylesheet" href="/dist/css/style.css" />
 
-  <!-- Overview Content Start -->
-
-  Uranus is the seventh planet from the Sun. Its name is a reference to the 
-  Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather 
-  of Ares. It has the third-largest planetary radius and fourth-largest planetary 
-  mass in the Solar System.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Uranus -->
-
-  <!-- Overview Content End -->
-
-  <!-- Internal Structure Content Start -->
-
-  The standard model of Uranus's structure is that it consists of three layers: a 
-  rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and 
-  an outer gaseous hydrogen/helium envelope. The core is relatively small, with a 
-  mass of only 0.55 Earth masses.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Uranus#Internal_structure -->
-
-  <!-- Internal Structure Content End -->
-
-  <!-- Surface Geology Content Start -->
-
-  The composition of Uranus's atmosphere is different from its bulk, consisting mainly 
-  of molecular hydrogen and helium. The helium molar fraction, i.e. the number of 
-  helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Uranus#Atmosphere -->
-
-  <!-- Surface Geology Content End -->
-
-  01 Overview
-  02 Internal Structure
-  03 Surface Geology
-
-  Rotation Time
-  17.2 Hours
-
-  Revolution Time
-  84 Years
-
-  Radius
-  25,362 KM
-
-  Average Temp.
-  -195°c
-
-  <!-- JavaScript Bundle with Popper -->
+		<title>Frontend Mentor | Planets fact site</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<nav class="navbar navbar-dark navbar-expand-md bgDark borderBottom">
+					<div class="container-fluid flex-md-column flex-lg-row">
+						<a href="./index.html" class="navbar-brand header-title p-2 mt-2"
+							>The Planets
+						</a>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="offcanvas"
+							data-bs-target="#offcanvasDarkNavbar"
+							aria-controls="offcanvasDarkNavbar"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div
+							class="offcanvas offcanvas-start text-bg-dark"
+							tabindex="-1"
+							id="offcanvasDarkNavbar"
+							aria-labelledby="offcanvasDarkNavbarLabel"
+						>
+							<div
+								class="offcanvas-header borderBottom"
+								id="offcanvasDarkNavbarLabel"
+							>
+								<h5
+									class="offcanvas-title text-white header-title p-2 d-md-none"
+								>
+									The Planets
+								</h5>
+								<button
+									class="btn-close btn-close-white d-md-none"
+									type="button"
+									data-bs-dismiss="offcanvas"
+									aria-label="Close"
+								></button>
+							</div>
+							<div
+								class="offcanvas-body d-lg-flex flex-lg-row justify-content-lg-end align-items-lg-center"
+							>
+								<ul
+									class="navbar-nav d-flex flex-column flex-md-row justify-content-evenly mt-md-2 p-2"
+								>
+									<li
+										class="nav-item nav_item--mercury d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/mercury-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--mercury link-text active h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="/index.html"
+												>Mercury</a
+											>
+										</div>
+										<a href="javascript:void(0)" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--venus d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/venus-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--venus link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="/pages/venus.html"
+												>Venus</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--earth d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/earth-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--earth link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="/pages/earth.html"
+												>Earth</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--mars d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/mars-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--mars link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="/pages/mars.html"
+												>Mars</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--jupiter d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/jupiter-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--jupiter link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="/pages/jupiter.html"
+												>Jupiter</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--saturn d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/saturn-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--saturn link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="/pages/saturn.html"
+												>Saturn</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--uranus d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
+									>
+										<div>
+											<img
+												src="assets/uranus-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--uranus link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="/pages/uranus.html"
+												>Uranus</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+									<li
+										class="nav-item nav_item--neptune d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1"
+									>
+										<div>
+											<img
+												src="assets/neptune-circle.png"
+												class="planet-icon d-md-none"
+												alt="planet icon"
+											/>
+											<a
+												class="nav__link nav__link--neptune link-text h3-title ps-1 px-md-1 text-white text-uppercase"
+												href="/pages/neptune.html"
+												>Neptune</a
+											>
+										</div>
+										<a href="" class="icon-link">
+											<img
+												src="assets/icon-chevron.svg"
+												class="menu-chevron d-md-none"
+												alt="menu arrow"
+											/>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<!-- End Header Section -->
+		</div>
+		<!-- JavaScript Bundle with Popper -->
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
 			crossorigin="anonymous"
 		></script>
-</body>
+
+		<!-- My JS -->
+		<script src="/js/main.js"></script>
+	</body>
 </html>
+
+Uranus
+
+<!-- Overview Content Start -->
+
+Uranus is the seventh planet from the Sun. Its name is a reference to the Greek
+god of the sky, Uranus according to Greek mythology, was the great-grandfather
+of Ares. It has the third-largest planetary radius and fourth-largest planetary
+mass in the Solar System. Source : Wikipedia
+<!-- URL: https://en.wikipedia.org/wiki/Uranus -->
+
+<!-- Overview Content End -->
+
+<!-- Internal Structure Content Start -->
+
+The standard model of Uranus's structure is that it consists of three layers: a
+rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and
+an outer gaseous hydrogen/helium envelope. The core is relatively small, with a
+mass of only 0.55 Earth masses. Source : Wikipedia
+<!-- URL: https://en.wikipedia.org/wiki/Uranus#Internal_structure -->
+
+<!-- Internal Structure Content End -->
+
+<!-- Surface Geology Content Start -->
+
+The composition of Uranus's atmosphere is different from its bulk, consisting
+mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the
+number of helium atoms per molecule of gas, is 0.15±0.03 in the upper
+troposphere. Source : Wikipedia
+<!-- URL: https://en.wikipedia.org/wiki/Uranus#Atmosphere -->
+
+<!-- Surface Geology Content End -->
+
+01 Overview 02 Internal Structure 03 Surface Geology Rotation Time 17.2 Hours
+Revolution Time 84 Years Radius 25,362 KM Average Temp. -195°c

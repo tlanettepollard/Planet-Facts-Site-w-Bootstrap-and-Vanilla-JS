@@ -161,3 +161,7 @@ I spent a week researching ways to override Bootstrap colors and I was doing it 
 ### 02/26/2023
 
 I realized after spending to much time researching that I needed to simplify my Single Page App to just a multipage website. I was spending too much time to make it work with Vanilla JS, when I should've used React. So, this project will be a multi-page instead of a single page.
+
+
+
+
