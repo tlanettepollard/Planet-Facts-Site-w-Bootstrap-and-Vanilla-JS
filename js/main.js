@@ -1,6 +1,6 @@
 //Getting Planet Data
 let planetsData;
-let currentPlanet;
+let currentPlanet = planet[0];
 
 fetch('/data.json')
 	.then((response) => response.json())
@@ -10,7 +10,7 @@ fetch('/data.json')
 	});
 
 // Variables
-const planetLink = document.querySelector('.nav__link');
+const planetMenuLinks = document.querySelectorAll('.nav__link');
 const planetName = document.getElementById('main-title');
 const planetImage = document.getElementById('main-image');
 const geologyImage = document.querySelector('.geology-image');
@@ -31,3 +31,26 @@ const geologyBtnMobile = document.querySelector('.btn-surface--mobile');
 const overviewBtn = document.querySelector('.btn-overview');
 const structureBtn = document.querySelector('.btn-structure');
 const geologyBtn = document.querySelector('.btn-surface');
+
+// Getting Planet Information
+
+const getPlanetInfo = (links) => {
+	links.forEach((link) => {
+		link.addEventListener('click', (clickedLink) => {
+			main.style.height = '100%';
+			planetMenuLink = clickedLink.target;
+			planetsData.forEach((planetObject) => {
+				if (planetObject.name == planetMenuLink.text) {
+					currentPlanet = planetObject;
+					updatePlanetInfo(planetObject);
+				}
+			});
+		});
+	});
+};
+getPlanetInfo(planetMenuLinks);
+
+const updatePlanetInfo = (planet) => {
+	planetName.innerText = currentPlanet.name;
+	planetInfo.innerText = planet.overview.content;
+};
