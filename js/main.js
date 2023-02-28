@@ -10,7 +10,7 @@ fetch('/data.json')
 	});
 
 // Variables
-const planetLink = document.querySelector('.nav__link');
+const planetLink = document.querySelector('.nav-link');
 const planetName = document.getElementById('main-title');
 const planetImage = document.getElementById('main-image');
 const geologyImage = document.querySelector('.geology-image');
