@@ -164,4 +164,4 @@ I realized after spending to much time researching that I needed to simplify my 
 
 ### 02/28/2022
 
-Next task: to have page load with Mercury info.
+Next task: to have page load with Mercury info... I decided to load every page with the overview section detail. I had been obsessing over how to load the information for too long. I need to get better at planning out projects and sticking with the decisions I make for completing them. That is my one problem now. I loaded Mercury, Venus, and Earth. I will load the rest tomorrow. Then I will use JS to add the functionality to the other two sections and pictures on the page.
