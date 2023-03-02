@@ -60,7 +60,7 @@
 								class="offcanvas-body d-lg-flex flex-lg-row justify-content-lg-end align-items-lg-center"
 							>
 								<ul
-									class="navbar-nav d-flex flex-column flex-md-row justify-content-evenly mt-md-2 p-2"
+									class="navbar-nav d-flex flex-column flex-md-row justify-content-evenly mt-md-4 mt-lg-0 p-2"
 								>
 									<li
 										class="nav-item nav-item--mercury d-flex flex-row justify-content-between align-items-center mb-1 mb-md-0 p-1 borderBottom"
@@ -287,7 +287,7 @@
 			<!-- End Header Section -->
 
 			<!-- Main Section -->
-			<main class="main container-fluid my-5">
+			<main class="main container-fluid my-2">
 				<section
 					class="desc-buttons--mobile container-fluid d-flex flex-row justify-content-evenly align-items-center d-md-none p-2 border-bottom mars"
 				>
@@ -308,13 +308,12 @@
 					</button>
 				</section>
 
-				<section class="desc-planet container-fluid row gap-lg-2">
+				<section class="desc-planet container-fluid row">
 					<div
-						class="planet-image_container container col-12 col-lg-4 my-5 position-relative"
-					>
-						<div class="planet-image--bottom container pt-md-5">
+						class="planet-image_container container col-12 col-lg-4 my-2 d-lg-flex flex-lg-column justify-content-lg-center position-relative">
+						<div class="planet-image--bottom container pt-md-2">
 							<img
-								src=""
+								src="/assets/images/planet-mars.svg"
 								alt="mars planet image"
 								id="main-image"
 								class="planet-image planet-image--mars mx-auto d-block p-5 img-fluid position-relative"
@@ -322,7 +321,7 @@
 						</div>
 						<div class="planet-image--top container">
 							<img
-								src=""
+								src="/assets/images/geology-mars.png"
 								alt="mars geology image"
 								class="geology-image mars-img img-fluid position-absolute d-none"
 							/>
@@ -336,11 +335,21 @@
 								<h1
 									id="main-title"
 									class="planet-info--title h1-title text-center text-md-start"
-								></h1>
-								<p id="main-text" class="planet-info--text paragraph"></p>
+								>
+									Mars
+								</h1>
+								<p id="main-text" class="planet-info--text paragraph">
+									Mars is the fourth planet from the Sun and the second-smallest
+									planet in the Solar System, being larger than only Mercury. In
+									English, Mars carries the name of the Roman god of war and is
+									often referred to as the "Red Planet".
+								</p>
 								<p class="source-text">
 									Source :
-									<a href="" class="source-link text-white" target="_blank"
+									<a
+										href="https://en.wikipedia.org/wiki/Mars"
+										class="source-link text-white"
+										target="_blank"
 										>Wikipedia</a
 									>
 									<img
@@ -391,25 +400,25 @@
 								class="rotation facts d-flex flex-row flex-md-column justify-content-between align-items-center align-items-md-start justify-content-md-evenly border border-1 me-2 ps-4"
 							>
 								<p class="facts-title h4-title">Rotation Time</p>
-								<p id="rotation-time" class="facts-data"></p>
+								<p id="rotation-time" class="facts-data">1.03 Days</p>
 							</div>
 							<div
 								class="revolution facts d-flex flex-row flex-md-column justify-content-between align-items-center align-items-md-start justify-content-md-evenly border border-1 me-2 ps-4"
 							>
 								<p class="facts-title h4-title">Revolution Time</p>
-								<p id="revolution-time" class="facts-data"></p>
+								<p id="revolution-time" class="facts-data">1.88 Years</p>
 							</div>
 							<div
 								class="radius facts d-flex flex-row flex-md-column justify-content-between align-items-center align-items-md-start justify-content-md-evenly border border-1 me-2 ps-4"
 							>
 								<p class="facts-title h4-title">Radius</p>
-								<p id="radius-size" class="facts-data"></p>
+								<p id="radius-size" class="facts-data">3,389.5 KM</p>
 							</div>
 							<div
 								class="temperature facts d-flex flex-row flex-md-column justify-content-between align-items-center align-items-md-start justify-content-md-evenly border border-1 me-2 ps-4"
 							>
 								<p class="facts-title h4-title">Average Temp.</p>
-								<p id="avg-temperature" class="facts-data"></p>
+								<p id="avg-temperature" class="facts-data">-28°c</p>
 							</div>
 						</div>
 
@@ -440,41 +449,6 @@
 		></script>
 
 		<!-- My JS -->
-		<script  src="/js/main.js"></script>
+		<script src="/js/main.js"></script>
 	</body>
 </html>
-
-Mars
-
-<!-- Overview Content Start -->
-
-Mars is the fourth planet from the Sun and the second-smallest planet in the
-Solar System, being larger than only Mercury. In English, Mars carries the name
-of the Roman god of war and is often referred to as the "Red Planet". Source :
-Wikipedia
-<!-- URL: https://en.wikipedia.org/wiki/Mars -->
-
-<!-- Overview Content End -->
-
-<!-- Internal Structure Content Start -->
-
-Like Earth, Mars has differentiated into a dense metallic core overlaid by less
-dense materials. Scientists initially determined that the core is at least
-partially liquid. Current models of its interior imply a core consisting
-primarily of iron and nickel with about 16–17% sulfur. Source : Wikipedia
-<!-- URL: https://en.wikipedia.org/wiki/Mars#Internal_structure -->
-
-<!-- Internal Structure Content End -->
-
-<!-- Surface Geology Content Start -->
-
-Mars is a terrestrial planet whose surface consists of minerals containing
-silicon and oxygen, metals, and other elements that typically make up rock. The
-surface is primarily composed of tholeiitic basalt, although parts are more
-silica-rich than typical basalt. Source : Wikipedia
-<!-- URL: https://en.wikipedia.org/wiki/Mars#Surface_geology -->
-
-<!-- Surface Geology Content End -->
-
-01 Overview 02 Internal Structure 03 Surface Geology Rotation Time 1.03 Days
-Revolution Time 1.88 Years Radius 3,389.5 KM Average Temp. -28°c

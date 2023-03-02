@@ -11,21 +11,37 @@
 	.btn-overview--mobile {
 		border-bottom: 0.25rem solid $mercury !important;
 	}
-	.desc-buttons--tablet {
-		@include bp-tablet-up {
-			border: none;
-			width: 17.5625rem;
-			height: 100%;
-		}
-	}
 
-	.btn-overview {
-		background-color: $mercury;
+	.desc-planet {
+		@include bp-tablet-up {
+			
+			
+		}
+		.planet-image_container {
+
+		}
+		.top_container {
+			@include bp-tablet-up {
+				
+			}
+
+			.planet-info {
+				@include bp-tablet-up {
+					width: 21.1875rem;
+				}
+			}
+			.desc-buttons--tablet {
+				@include bp-tablet-up {
+					border: none;
+					width: 17.5625rem;
+					height: 17.6875rem;
+				}
+			}
+		}
 	}
 }
 
 // Mobile Buttons on page load
-
 
 .mercury > .btn-overview--mobile {
 	border-bottom: 4px solid $mercury !important;
