@@ -216,14 +216,16 @@ h4 {
   border-bottom: 0.25rem solid #419ebb !important;
 }
 @media only screen and (min-width: 768px) {
-  .main .desc-buttons--tablet {
-    border: none;
-    width: 17.5625rem;
-    height: 100%;
+  .main .desc-planet .top_container .planet-info {
+    width: 21.1875rem;
   }
 }
-.main .btn-overview {
-  background-color: #419ebb;
+@media only screen and (min-width: 768px) {
+  .main .desc-planet .top_container .desc-buttons--tablet {
+    border: none;
+    width: 17.5625rem;
+    height: 17.6875rem;
+  }
 }
 
 .mercury > .btn-overview--mobile {
