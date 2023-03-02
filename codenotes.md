@@ -168,4 +168,4 @@ Next task: to have page load with Mercury info... I decided to load every page w
 
 ### 03/01/2023
 
-Hi. Back tonight to add the files to the other planet pages. 
+Hi. Back tonight to add the files to the other planet pages. Added all of the Overview info to all of the planet pages. I readjusted some of the sizing. Need to readjust sizing on tablet and desktop buttons. 
