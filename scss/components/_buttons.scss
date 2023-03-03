@@ -14,15 +14,12 @@
 
 	.desc-planet {
 		@include bp-tablet-up {
-			
-			
 		}
 		.planet-image_container {
-
 		}
 		.top_container {
-			@include bp-tablet-up {
-				
+			@include $bp-xl {
+				width: 21.875rem;
 			}
 
 			.planet-info {
@@ -33,7 +30,7 @@
 			.desc-buttons--tablet {
 				@include bp-tablet-up {
 					border: none;
-					width: 17.5625rem;
+					width: 21.875rem;
 					height: 17.6875rem;
 				}
 			}
