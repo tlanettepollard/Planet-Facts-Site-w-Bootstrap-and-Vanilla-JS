@@ -168,4 +168,8 @@ Next task: to have page load with Mercury info... I decided to load every page w
 
 ### 03/01/2023
 
-Hi. Back tonight to add the files to the other planet pages. Added all of the Overview info to all of the planet pages. I readjusted some of the sizing. Need to readjust sizing on tablet and desktop buttons. 
+Hi. Back tonight to add the files to the other planet pages. Added all of the Overview info to all of the planet pages. I readjusted some of the sizing. Need to readjust sizing on tablet and desktop buttons.
+
+### 03/02/2023
+
+Hi. I messed up the sizing somehow. I think I have the same code overlapping in two different scss files. I may have done too much with the scss instead of relying on the Bootstrap. I will work on it tomorrow. I won't merge the commits yet.
