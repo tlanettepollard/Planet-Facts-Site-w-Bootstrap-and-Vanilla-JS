@@ -144,9 +144,13 @@ h4 {
   font-family: "Spartan", sans-serif;
   font-size: 0.6875rem;
   line-height: 1.5625rem;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.0625rem;
+}
+
+.link-text:hover {
+  font-weight: 700;
 }
 
 .btn-text {
@@ -577,15 +581,50 @@ header nav .offcanvas-body .navbar-nav {
   }
 }
 @media only screen and (min-width: 768px) {
-  header nav .offcanvas-body .navbar-nav li {
+  header nav .offcanvas-body .navbar-nav .nav-item {
     border: none !important;
+    border-top: 0.3125rem solid transparent !important;
   }
 }
-header nav .offcanvas-body .navbar-nav li a {
+header nav .offcanvas-body .navbar-nav .nav-item a {
   text-decoration: none;
 }
 header nav .offcanvas-body .navbar-nav .borderBottom {
   border-bottom: 1px solid #38384f;
+}
+@media only screen and (min-width: 768px) {
+  header nav .offcanvas-body .navbar-nav .nav-item--mercury:hover,
+  header nav .offcanvas-body .navbar-nav .nav-item--mercury.active {
+    border-top: 0.1875rem solid #419ebb !important;
+  }
+  header nav .offcanvas-body .navbar-nav .nav-item--venus:hover,
+  header nav .offcanvas-body .navbar-nav .nav-item--venus.active {
+    border-top: 0.1875rem solid #eda249 !important;
+  }
+  header nav .offcanvas-body .navbar-nav .nav-item--earth:hover,
+  header nav .offcanvas-body .navbar-nav .nav-item--earth.active {
+    border-top: 0.1875rem solid #6f2ed6 !important;
+  }
+  header nav .offcanvas-body .navbar-nav .nav-item--mars:hover,
+  header nav .offcanvas-body .navbar-nav .nav-item--mars.active {
+    border-top: 0.1875rem solid #d14c32 !important;
+  }
+  header nav .offcanvas-body .navbar-nav .nav-item--jupiter:hover,
+  header nav .offcanvas-body .navbar-nav .nav-item--jupiter.active {
+    border-top: 0.1875rem solid #d83a34 !important;
+  }
+  header nav .offcanvas-body .navbar-nav .nav-item--saturn:hover,
+  header nav .offcanvas-body .navbar-nav .nav-item--saturn.active {
+    border-top: 0.1875rem solid #cd5120 !important;
+  }
+  header nav .offcanvas-body .navbar-nav .nav-item--uranus:hover,
+  header nav .offcanvas-body .navbar-nav .nav-item--uranus.active {
+    border-top: 0.1875rem solid #1ec2a4 !important;
+  }
+  header nav .offcanvas-body .navbar-nav .nav-item--neptune:hover,
+  header nav .offcanvas-body .navbar-nav .nav-item--neptune.active {
+    border-top: 0.1875rem solid #2d68f0 !important;
+  }
 }
 header .borderBottom {
   border-bottom: 1px solid #38384f;

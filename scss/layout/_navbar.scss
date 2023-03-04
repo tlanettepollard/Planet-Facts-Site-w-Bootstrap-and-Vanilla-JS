@@ -32,10 +32,12 @@ header {
 				@include bp-xl-up {
 					height: 5.5rem;
 				}
-				li {
+				.nav-item {
 					@include bp-tablet-up {
 						border: none !important;
+						border-top: 0.3125rem solid transparent !important;
 					}
+
 					a {
 						text-decoration: none;
 					}
@@ -43,6 +45,47 @@ header {
 
 				.borderBottom {
 					border-bottom: 1px solid $color-dk-gray;
+				}
+
+				@include bp-tablet-up {
+					.nav-item--mercury:hover,
+					.nav-item--mercury.active {
+						border-top: 0.1875rem solid $mercury !important;
+					}
+
+					.nav-item--venus:hover,
+					.nav-item--venus.active {
+						border-top: 0.1875rem solid $venus !important;
+					}
+					.nav-item--earth:hover,
+					.nav-item--earth.active {
+						border-top: 0.1875rem solid $earth !important;
+					}
+
+					.nav-item--mars:hover,
+					.nav-item--mars.active {
+						border-top: 0.1875rem solid $mars !important;
+					}
+
+					.nav-item--jupiter:hover,
+					.nav-item--jupiter.active {
+						border-top: 0.1875rem solid $jupiter !important;
+					}
+
+					.nav-item--saturn:hover,
+					.nav-item--saturn.active {
+						border-top: 0.1875rem solid $saturn !important;
+					}
+
+					.nav-item--uranus:hover,
+					.nav-item--uranus.active {
+						border-top: 0.1875rem solid $uranus !important;
+					}
+
+					.nav-item--neptune:hover,
+					.nav-item--neptune.active {
+						border-top: 0.1875rem solid $neptune !important;
+					}
 				}
 			}
 		}
@@ -54,6 +97,8 @@ header {
 	.bgDark {
 		background-color: transparent !important;
 	}
+
+	// Navbar Hover
 }
 
 .text-bg-dark {

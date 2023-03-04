@@ -95,11 +95,15 @@ h4 {
 
 .link-text {
 	font-family: $body-font-family;
-	font-size: .6875rem;
+	font-size: 0.6875rem;
 	line-height: 1.5625rem;
-	font-weight: $weight-bold;
+	font-weight: $weight-regular;
 	text-transform: uppercase;
 	letter-spacing: 0.0625rem;
+}
+
+.link-text:hover {
+	font-weight: $weight-bold;
 }
 
 .btn-text {
@@ -109,7 +113,7 @@ h4 {
 	@include bp-tablet-up {
 		font-size: 0.5625rem;
 		line-height: 1.5625rem;
-		letter-spacing: .058rem;
+		letter-spacing: 0.058rem;
 	}
 	@include bp-xl-up {
 		font-size: 0.75rem;
