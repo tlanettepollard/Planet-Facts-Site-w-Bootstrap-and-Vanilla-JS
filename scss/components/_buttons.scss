@@ -1,4 +1,5 @@
 .main {
+
 	.desc-buttons--mobile.desc-buttons--mobile {
 		height: 3.125rem;
 		width: 100%;
@@ -13,25 +14,17 @@
 	}
 
 	.desc-planet {
-		@include bp-tablet-up {
-		}
-		.planet-image_container {
-		}
 		.top_container {
-			@include $bp-xl {
-				width: 21.875rem;
-			}
-
-			.planet-info {
-				@include bp-tablet-up {
-					width: 21.1875rem;
-				}
-			}
 			.desc-buttons--tablet {
+
 				@include bp-tablet-up {
 					border: none;
 					width: 21.875rem;
 					height: 17.6875rem;
+				}
+
+				@include bp-xl-up {
+					width: 25rem;
 				}
 			}
 		}

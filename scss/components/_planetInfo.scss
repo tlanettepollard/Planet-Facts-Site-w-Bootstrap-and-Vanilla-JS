@@ -6,7 +6,13 @@
 		width: 100%;
 
 		.planet-info {
-			
+			@include bp-tablet-up {
+				width: 21.1875rem;
+			}
+
+			@include bp-xl-up {
+				width: 25rem;
+			}
 			&--title {
 				font-size: 2.5rem;
 
