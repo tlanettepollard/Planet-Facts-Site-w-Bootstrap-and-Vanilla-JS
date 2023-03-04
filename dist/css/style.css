@@ -5,7 +5,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid white;
 }
 
 html {
@@ -217,7 +216,6 @@ h4 {
 }
 @media only screen and (min-width: 768px) {
   .main .desc-planet .top_container .desc-buttons--tablet {
-    border: none;
     width: 21.875rem;
     height: 17.6875rem;
   }
@@ -226,6 +224,14 @@ h4 {
   .main .desc-planet .top_container .desc-buttons--tablet {
     width: 25rem;
   }
+}
+@media only screen and (min-width: 768px) {
+  .main .desc-planet .top_container .desc-buttons--tablet .btn-tablet:hover {
+    background-color: #38384f;
+  }
+}
+.main .btn-outline-secondary {
+  outline: 0.0313rem solid #838391 !important;
 }
 
 .mercury > .btn-overview--mobile {
