@@ -16,7 +16,7 @@
 
 		<title>Frontend Mentor | Planets fact site</title>
 	</head>
-	<body>
+	<body id="mercury">
 		<div class="wrapper">
 			<header class="header">
 				<nav
@@ -290,19 +290,22 @@
 			<!-- Main Section -->
 			<main class="main container-fluid mt-2 mb-5 mt-xl-5">
 				<section
-					class="desc-buttons--mobile container-fluid d-flex flex-row justify-content-evenly align-items-center d-md-none pt-4 border-bottom mercury"
+					class="desc-buttons--mobile desc-buttons container-fluid d-flex flex-row justify-content-evenly align-items-center d-md-none pt-4 border-bottom mercury"
 				>
 					<button
+						id="overviewMobile"
 						class="btn btn-mobile btn-overview--mobile desc-button text-center p-2"
 					>
 						<h4 class="mobile-title m-0 pb-1 text-uppercase">Overview</h4>
 					</button>
 					<button
+						id="structureMobile"
 						class="btn btn-mobile btn-structure--mobile desc-button text-center p-2"
 					>
 						<h4 class="mobile-title m-0 pb-1 text-uppercase">Structure</h4>
 					</button>
 					<button
+						id="surfaceMobile"
 						class="btn btn-mobile btn-surface--mobile desc-button text-center p-2"
 					>
 						<h4 class="mobile-title m-0 pb-1 text-uppercase">Surface</h4>
@@ -367,9 +370,10 @@
 							</div>
 
 							<div
-								class="desc-buttons--tablet container d-none d-md-block d-md-flex flex-md-column justify-content-md-evenly mercury mt-xl-3 py-3"
+								class="desc-buttons--tablet desc-buttons container d-none d-md-block d-md-flex flex-md-column justify-content-md-evenly mercury mt-xl-3 py-3"
 							>
 								<button
+									id="overviewTablet"
 									class="btn btn-tablet btn-overview desc-button text-md-start btn-outline-secondary active"
 								>
 									<p class="btn-text btn-info--title my-auto py-2">
@@ -377,6 +381,7 @@
 									</p>
 								</button>
 								<button
+									id="structureTablet"
 									class="btn btn-tablet btn-structure desc-button text-md-start btn-outline-secondary"
 								>
 									<p class="btn-info--title btn-text my-auto py-2">
@@ -384,6 +389,7 @@
 									</p>
 								</button>
 								<button
+									id="surfaceTablet"
 									class="btn btn-tablet btn-surface desc-button text-md-start btn-outline-secondary"
 								>
 									<p class="btn-text btn-info--title my-auto py-2">
