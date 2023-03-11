@@ -239,7 +239,7 @@ h4 {
   outline: 0.0313rem solid #838391 !important;
 }
 
-.mercury > .btn-overview--mobile {
+.mercury > .btn-overview--mobile .active {
   border-bottom: 4px solid #419ebb !important;
 }
 
