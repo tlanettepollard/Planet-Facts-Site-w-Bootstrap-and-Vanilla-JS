@@ -16,14 +16,24 @@ const fetchData = () => {
 fetchData();
 
 // Variables
-
+const planetLinks = document.querySelectorAll('.nav-link');
+const planetItem = document.querySelectorAll('.nav-item');
 const planetImage = document.querySelector('.planet-image');
 const geologyImage = document.querySelector('.geology-image');
 const planetContent = document.querySelector('.planet-info');
 const source = document.querySelector('.source-link');
 const vw = window.innerWidth;
 
-let currentPlanet = document.getElementById('#mercury');
-let currentPlanetIndex = '0';
-let currentDesButtonsIndex = '0';
+// Buttons
+const overviewBtn = document.querySelector('.btn-overview');
+const structureBtn = document.querySelector('.btn-structure');
+const geologyBtn = document.querySelector('.btn-surface');
+const overviewBtnMobile = document.querySelector('.btn-overview--mobile');
+const structureBtnMobile = document.querySelector('.btn-structure--mobile');
+const geologyBtnMobile = document.querySelector('.btn-surface--mobile');
 
+let currentPlanet = document.getElementById('#mercury');
+
+const activePlanet = (planetLinks) => {
+	
+};

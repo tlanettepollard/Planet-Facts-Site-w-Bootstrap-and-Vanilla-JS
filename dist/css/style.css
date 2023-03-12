@@ -239,7 +239,7 @@ h4 {
   outline: 0.0313rem solid #838391 !important;
 }
 
-.mercury > .btn-overview--mobile .active {
+.mercury > .btn-overview--mobile .selected {
   border-bottom: 4px solid #419ebb !important;
 }
 
@@ -595,35 +595,35 @@ header nav .offcanvas-body .navbar-nav .borderBottom {
 }
 @media only screen and (min-width: 768px) {
   header nav .offcanvas-body .navbar-nav .nav-item--mercury:hover,
-  header nav .offcanvas-body .navbar-nav .nav-item--mercury.active {
+  header nav .offcanvas-body .navbar-nav .nav-item--mercury.selected {
     border-top: 0.1875rem solid #419ebb !important;
   }
   header nav .offcanvas-body .navbar-nav .nav-item--venus:hover,
-  header nav .offcanvas-body .navbar-nav .nav-item--venus.active {
+  header nav .offcanvas-body .navbar-nav .nav-item--venus.selected {
     border-top: 0.1875rem solid #eda249 !important;
   }
   header nav .offcanvas-body .navbar-nav .nav-item--earth:hover,
-  header nav .offcanvas-body .navbar-nav .nav-item--earth.active {
+  header nav .offcanvas-body .navbar-nav .nav-item--earth.selected {
     border-top: 0.1875rem solid #6f2ed6 !important;
   }
   header nav .offcanvas-body .navbar-nav .nav-item--mars:hover,
-  header nav .offcanvas-body .navbar-nav .nav-item--mars.active {
+  header nav .offcanvas-body .navbar-nav .nav-item--mars.selected {
     border-top: 0.1875rem solid #d14c32 !important;
   }
   header nav .offcanvas-body .navbar-nav .nav-item--jupiter:hover,
-  header nav .offcanvas-body .navbar-nav .nav-item--jupiter.active {
+  header nav .offcanvas-body .navbar-nav .nav-item--jupiter.selected {
     border-top: 0.1875rem solid #d83a34 !important;
   }
   header nav .offcanvas-body .navbar-nav .nav-item--saturn:hover,
-  header nav .offcanvas-body .navbar-nav .nav-item--saturn.active {
+  header nav .offcanvas-body .navbar-nav .nav-item--saturn.selected {
     border-top: 0.1875rem solid #cd5120 !important;
   }
   header nav .offcanvas-body .navbar-nav .nav-item--uranus:hover,
-  header nav .offcanvas-body .navbar-nav .nav-item--uranus.active {
+  header nav .offcanvas-body .navbar-nav .nav-item--uranus.selected {
     border-top: 0.1875rem solid #1ec2a4 !important;
   }
   header nav .offcanvas-body .navbar-nav .nav-item--neptune:hover,
-  header nav .offcanvas-body .navbar-nav .nav-item--neptune.active {
+  header nav .offcanvas-body .navbar-nav .nav-item--neptune.selected {
     border-top: 0.1875rem solid #2d68f0 !important;
   }
 }
