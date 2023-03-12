@@ -16,7 +16,7 @@
 
 		<title>Frontend Mentor | Planets fact site</title>
 	</head>
-	<body>
+	<body id="mercury">
 		<div class="wrapper">
 			<header class="header">
 				<nav
@@ -294,7 +294,7 @@
 				>
 					<button
 						id="overviewMobile"
-						class="btn btn-mobile btn-overview--mobile desc-button text-center overview p-2"
+						class="btn btn-mobile btn-overview--mobile desc-button text-center overview p-2 selected"
 					>
 						<h4 class="mobile-title m-0 pb-1 text-uppercase">Overview</h4>
 					</button>
@@ -373,7 +373,8 @@
 								class="desc-buttons--tablet desc-buttons container d-none d-md-block d-md-flex flex-md-column justify-content-md-evenly mercury mt-xl-3 py-3"
 							>
 								<button
-									class="btn btn-tablet btn-overview desc-button text-md-start btn-outline-secondary overview active"
+									id="overviewTablet"
+									class="btn btn-tablet btn-overview desc-button--tablet text-md-start btn-outline-secondary overview selected"
 								>
 									<p class="btn-text btn-info--title my-auto py-2">
 										<span class="span-number btn-text px-3">01</span>Overview
@@ -381,7 +382,7 @@
 								</button>
 								<button
 									id="structureTablet"
-									class="btn btn-tablet btn-structure desc-button text-md-start btn-outline-secondary structure"
+									class="btn btn-tablet btn-structure desc-button--tablet text-md-start btn-outline-secondary structure"
 								>
 									<p class="btn-info--title btn-text my-auto py-2">
 										<span class="span-number px-3">02</span>Structure
@@ -389,7 +390,7 @@
 								</button>
 								<button
 									id="surfaceTablet"
-									class="btn btn-tablet btn-surface desc-button text-md-start btn-outline-secondary surface"
+									class="btn btn-tablet btn-surface desc-button--tablet text-md-start btn-outline-secondary surface"
 								>
 									<p class="btn-text btn-info--title my-auto py-2">
 										<span class="span-number px-3">03</span>Surface Geology
