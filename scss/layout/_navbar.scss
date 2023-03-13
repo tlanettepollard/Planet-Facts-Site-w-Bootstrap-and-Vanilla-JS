@@ -49,41 +49,41 @@ header {
 
 				@include bp-tablet-up {
 					.nav-item--mercury:hover,
-					.nav-item--mercury.active {
+					.nav-item--mercury.selected {
 						border-top: 0.1875rem solid $mercury !important;
 					}
 
 					.nav-item--venus:hover,
-					.nav-item--venus.active {
+					.nav-item--venus.selected {
 						border-top: 0.1875rem solid $venus !important;
 					}
 					.nav-item--earth:hover,
-					.nav-item--earth.active {
+					.nav-item--earth.selected {
 						border-top: 0.1875rem solid $earth !important;
 					}
 
 					.nav-item--mars:hover,
-					.nav-item--mars.active {
+					.nav-item--mars.selected {
 						border-top: 0.1875rem solid $mars !important;
 					}
 
 					.nav-item--jupiter:hover,
-					.nav-item--jupiter.active {
+					.nav-item--jupiter.selected {
 						border-top: 0.1875rem solid $jupiter !important;
 					}
 
 					.nav-item--saturn:hover,
-					.nav-item--saturn.active {
+					.nav-item--saturn.selected {
 						border-top: 0.1875rem solid $saturn !important;
 					}
 
 					.nav-item--uranus:hover,
-					.nav-item--uranus.active {
+					.nav-item--uranus.selected {
 						border-top: 0.1875rem solid $uranus !important;
 					}
 
 					.nav-item--neptune:hover,
-					.nav-item--neptune.active {
+					.nav-item--neptune.selected {
 						border-top: 0.1875rem solid $neptune !important;
 					}
 				}
